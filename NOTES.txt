@@ -2,11 +2,9 @@ DIAGRAMME DE SEQUENCE SYSTEME
 
 A faire :
 	- Gestion du planning du personnel
-	- Validation du vol free time
 	- Enregistrement des bagages
 
 En cours:
-	- Gestion des révisions
 	- Enregistrement
 
 Terminés:
@@ -14,3 +12,5 @@ Terminés:
 	- Réservation d'un billet sur internet
 	- Vente de produits dans l'avion
 	- Gestion des vols
+	- Gestion des révisions
+	- Validation du vol free time
