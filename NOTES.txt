@@ -7,10 +7,10 @@ A faire :
 
 En cours:
 	- Gestion des révisions
-	- Gestion des vols
+	- Enregistrement
 
 Terminés:
 	- Vente de billet au comptoir
 	- Réservation d'un billet sur internet
-	- Enregistrement
 	- Vente de produits dans l'avion
+	- Gestion des vols
