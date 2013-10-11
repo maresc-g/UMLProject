@@ -5,7 +5,6 @@ A faire :
 
 En cours:
 	- Enregistrement
-	- Enregistrement des bagages
 
 Terminés:
 	- Vente de billet au comptoir
@@ -14,3 +13,4 @@ Terminés:
 	- Gestion des vols
 	- Gestion des révisions
 	- Validation du vol free time
+	- Enregistrement des bagages
