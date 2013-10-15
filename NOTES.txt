@@ -3,7 +3,6 @@ DIAGRAMME DE SEQUENCE SYSTEME
 A faire :
 	
 En cours:
-	- Enregistrement
 	- Gestion du planning du personnel
 
 
@@ -16,3 +15,4 @@ Terminés:
 	- Validation du vol free time
 	- Enregistrement des bagages
 	- Relance Marketing aux clients
+	- Enregistrement
