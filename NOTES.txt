@@ -2,6 +2,7 @@ DIAGRAMME DE SEQUENCE SYSTEME
 
 A faire :
 	- Gestion du planning du personnel
+	- Diagramme au choix
 
 En cours:
 	- Enregistrement
