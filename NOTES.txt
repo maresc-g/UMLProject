@@ -14,5 +14,6 @@ Terminés:
 	- Gestion des révisions
 	- Validation du vol free time
 	- Enregistrement des bagages
-	- Relance Marketing aux clients
+	- Relance Marketing aux clients (diagramme système au choix)
 	- Enregistrement
+	- Gestion du planning du personnel
