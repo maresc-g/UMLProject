@@ -1,0 +1,2 @@
+Diagramme d'activité :
+	Sellticket (check if enought ticket : condition ?)

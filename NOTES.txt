@@ -14,6 +14,19 @@ Terminés:
 	- Gestion des révisions
 	- Validation du vol free time
 	- Enregistrement des bagages
+<<<<<<< HEAD
+	- Relance Marketing aux clients
+	- Enregistrement
+
+DIAGRAMME D'ACTIVITE
+
+A faire :
+(5)
+
+En cour :
+	- Vente de billets
+=======
 	- Relance Marketing aux clients (diagramme système au choix)
 	- Enregistrement
 	- Gestion du planning du personnel
+>>>>>>> 90cb1726adeb39c412927fb37325e9443960725d
