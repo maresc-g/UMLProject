@@ -1,10 +1,11 @@
 DIAGRAMME DE SEQUENCE SYSTEME
 
 A faire :
-	- Gestion du planning du personnel
-
+	
 En cours:
 	- Enregistrement
+	- Gestion du planning du personnel
+
 
 Terminés:
 	- Vente de billet au comptoir
