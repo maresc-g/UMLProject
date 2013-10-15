@@ -1,12 +1,7 @@
 DIAGRAMME DE SEQUENCE SYSTEME
 
-A faire :
-	
-En cours:
-	- Gestion du planning du personnel
-
-
 Terminés:
+	- Gestion du planning du personnel
 	- Vente de billet au comptoir
 	- Réservation d'un billet sur internet
 	- Vente de produits dans l'avion
@@ -19,6 +14,7 @@ Terminés:
 
 DIAGRAMME D'ACTIVITE
 
+<<<<<<< HEAD
 En cour :
 	- Relance Marketing aux clients (diagramme système au choix)
 	- Enregistrement
@@ -26,3 +22,16 @@ En cour :
 
 Terminé :
 	- Vente de billets
+=======
+A faire :
+(5)
+
+En cours :
+	- Gestion du planning du personnel
+
+Terminés:
+	- Gestion des révisions
+	- Gestion des vols
+	- Vente de billets
+	- Vente de produits dans l'avion
+>>>>>>> Wesh Wesh Cabillaud
