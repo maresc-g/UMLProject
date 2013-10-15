@@ -14,18 +14,6 @@ Terminés:
 
 DIAGRAMME D'ACTIVITE
 
-<<<<<<< HEAD
-En cour :
-	- Relance Marketing aux clients (diagramme système au choix)
-	- Enregistrement
-	- Gestion du planning du personnel
-
-Terminé :
-	- Vente de billets
-=======
-A faire :
-(5)
-
 En cours :
 	- Gestion du planning du personnel
 
@@ -34,4 +22,3 @@ Terminés:
 	- Gestion des vols
 	- Vente de billets
 	- Vente de produits dans l'avion
->>>>>>> Wesh Wesh Cabillaud
