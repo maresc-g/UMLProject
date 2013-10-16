@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{7C2D6F18-CE1A-4318-B6CE-6EF1DBF1CE60}" Label="" LastModificationDate="1381470738" Name="SellProductInPlane" Objects="21" Symbols="28" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{7C2D6F18-CE1A-4318-B6CE-6EF1DBF1CE60}" Label="" LastModificationDate="1381905274" Name="SellProductInPlane" Objects="19" Symbols="17" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1870,8 +1870,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>Java</a:Code>
 <a:CreationDate>1381383938</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381403741</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
+<a:ModificationDate>1381905274</a:ModificationDate>
+<a:Modifier>Guillaume</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/java5-j2ee14.xol</a:TargetModelURL>
 <a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>
 <a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
@@ -1885,8 +1885,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>WSDLJava</a:Code>
 <a:CreationDate>1381383938</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381403741</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
+<a:ModificationDate>1381905274</a:ModificationDate>
+<a:Modifier>Guillaume</a:Modifier>
 <a:TargetModelURL>file:///%_XEM%/WSDLJ2EE.xem</a:TargetModelURL>
 <a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>
 <a:TargetModelClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetModelClassID>

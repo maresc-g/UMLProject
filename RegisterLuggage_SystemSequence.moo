@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{86ABF939-3A61-435E-97D0-FD1801A6F67D}" Label="" LastModificationDate="1381470596" Name="RegisterLuggage" Objects="28" Symbols="37" Target="C++" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{86ABF939-3A61-435E-97D0-FD1801A6F67D}" Label="" LastModificationDate="1381905263" Name="RegisterLuggage" Objects="20" Symbols="20" Target="C++" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1390,7 +1390,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o10">
 <a:CreationDate>1381468865</a:CreationDate>
 <a:ModificationDate>1381470586</a:ModificationDate>
-<a:Rect>((-1080,-9940), (5819,-7260))</a:Rect>
+<a:Rect>((-1080,-9940), (5820,-7260))</a:Rect>
 <a:ListOfPoints>((-1080,-7260),(2520,-7260),(2520,-9940),(-1080,-9940))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1747,12 +1747,12 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <c:Model.Objects>
 <o:UMLObject Id="o36">
 <a:ObjectID>9B1CCCBA-F205-43A9-9DCC-A17DFE2A9AC1</a:ObjectID>
-<a:Name>Server</a:Name>
-<a:Code>Server</a:Code>
+<a:Name>System</a:Name>
+<a:Code>System</a:Code>
 <a:CreationDate>1381468430</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381468434</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
+<a:ModificationDate>1381905263</a:ModificationDate>
+<a:Modifier>Guillaume</a:Modifier>
 </o:UMLObject>
 </c:Model.Objects>
 <c:Messages>

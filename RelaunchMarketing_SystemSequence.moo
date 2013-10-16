@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{D44500F5-2923-48F8-A15F-1A647783F3FA}" Label="" LastModificationDate="1381818499" Name="RelaunchMarketing" Objects="24" Symbols="23" Target="C++" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{D44500F5-2923-48F8-A15F-1A647783F3FA}" Label="" LastModificationDate="1381905268" Name="RelaunchMarketing" Objects="19" Symbols="18" Target="C++" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1711,12 +1711,12 @@ DISPNAME 0 Arial,8,U</a:FontList>
 <c:Model.Objects>
 <o:UMLObject Id="o37">
 <a:ObjectID>19D2A485-74A0-4AE8-8E54-6E1DC53BE6FD</a:ObjectID>
-<a:Name>Server</a:Name>
-<a:Code>Server</a:Code>
+<a:Name>System</a:Name>
+<a:Code>System</a:Code>
 <a:CreationDate>1381816889</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381816937</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
+<a:ModificationDate>1381905268</a:ModificationDate>
+<a:Modifier>Guillaume</a:Modifier>
 </o:UMLObject>
 </c:Model.Objects>
 <c:Messages>
@@ -1928,8 +1928,8 @@ DISPNAME 0 Arial,8,U</a:FontList>
 <a:Code>C++</a:Code>
 <a:CreationDate>1381816877</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381816877</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
+<a:ModificationDate>1381905266</a:ModificationDate>
+<a:Modifier>Guillaume</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/C++.xol</a:TargetModelURL>
 <a:TargetModelID>22FB523D-7E45-430F-8069-3A702CF3BE3C</a:TargetModelID>
 <a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>

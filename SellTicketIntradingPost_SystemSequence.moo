@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{11098699-E035-4719-A6C4-E49DA35D7148}" Label="" LastModificationDate="1381471348" Name="SellTicketInTradingPost" Objects="104" Symbols="140" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{11098699-E035-4719-A6C4-E49DA35D7148}" Label="" LastModificationDate="1381905318" Name="SellTicketInTradingPost" Objects="39" Symbols="38" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1383,7 +1383,7 @@ Shadow=0</a:DisplayPreferences>
 <o:MessageSymbol Id="o7">
 <a:CreationDate>1381470040</a:CreationDate>
 <a:ModificationDate>1381470128</a:ModificationDate>
-<a:Rect>((-20400,-32460), (-5520,-30928))</a:Rect>
+<a:Rect>((-20400,-32460), (-5520,-31860))</a:Rect>
 <a:ListOfPoints>((-5520,-32160),(-20400,-32160))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1404,7 +1404,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o11">
 <a:CreationDate>1381470037</a:CreationDate>
 <a:ModificationDate>1381470128</a:ModificationDate>
-<a:Rect>((-20400,-25200), (-5520,-23668))</a:Rect>
+<a:Rect>((-20400,-25200), (-5520,-24600))</a:Rect>
 <a:ListOfPoints>((-5520,-24900),(-20400,-24900))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1425,7 +1425,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o13">
 <a:CreationDate>1381470024</a:CreationDate>
 <a:ModificationDate>1381470128</a:ModificationDate>
-<a:Rect>((-5521,-29700), (19860,-28168))</a:Rect>
+<a:Rect>((-5521,-29700), (19860,-29100))</a:Rect>
 <a:ListOfPoints>((19860,-29400),(-5521,-29400))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1446,7 +1446,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o16">
 <a:CreationDate>1381470010</a:CreationDate>
 <a:ModificationDate>1381470128</a:ModificationDate>
-<a:Rect>((-5520,-27720), (19860,-26188))</a:Rect>
+<a:Rect>((-5520,-27720), (19860,-27120))</a:Rect>
 <a:ListOfPoints>((-5520,-27420),(19860,-27420))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -2125,12 +2125,12 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <c:Model.Objects>
 <o:UMLObject Id="o70">
 <a:ObjectID>7791F2CF-C458-4267-8E9B-FC9286984C97</a:ObjectID>
-<a:Name>Server</a:Name>
-<a:Code>Server</a:Code>
+<a:Name>System</a:Name>
+<a:Code>System</a:Code>
 <a:CreationDate>1381385418</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381412573</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
+<a:ModificationDate>1381905318</a:ModificationDate>
+<a:Modifier>Guillaume</a:Modifier>
 </o:UMLObject>
 <o:UMLObject Id="o72">
 <a:ObjectID>A25F6FCB-A7B6-4C8B-BF38-9E234B06D9CF</a:ObjectID>
