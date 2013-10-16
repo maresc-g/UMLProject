@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{11098699-E035-4719-A6C4-E49DA35D7148}" Label="" LastModificationDate="1381905318" Name="SellTicketInTradingPost" Objects="39" Symbols="38" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{11098699-E035-4719-A6C4-E49DA35D7148}" Label="" LastModificationDate="1381906499" Name="SellTicketInTradingPost" Objects="39" Symbols="38" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1404,7 +1404,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o11">
 <a:CreationDate>1381470037</a:CreationDate>
 <a:ModificationDate>1381470128</a:ModificationDate>
-<a:Rect>((-20400,-25200), (-5520,-24600))</a:Rect>
+<a:Rect>((-20400,-25200), (-5520,-23668))</a:Rect>
 <a:ListOfPoints>((-5520,-24900),(-20400,-24900))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1950,7 +1950,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o65">
 <a:CreationDate>1381385429</a:CreationDate>
 <a:ModificationDate>1381470128</a:ModificationDate>
-<a:Rect>((-20400,25806), (-5520,27263))</a:Rect>
+<a:Rect>((-20400,25806), (-5520,26256))</a:Rect>
 <a:ListOfPoints>((-5520,26031),(-20400,26031))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1971,7 +1971,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o67">
 <a:CreationDate>1381385390</a:CreationDate>
 <a:ModificationDate>1381470128</a:ModificationDate>
-<a:Rect>((-20399,27915), (-5521,29372))</a:Rect>
+<a:Rect>((-20399,27915), (-5521,28365))</a:Rect>
 <a:ListOfPoints>((-20399,28140),(-5521,28140))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -2588,7 +2588,7 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>Java</a:Code>
 <a:CreationDate>1381385231</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381403746</a:ModificationDate>
+<a:ModificationDate>1381906499</a:ModificationDate>
 <a:Modifier>ansel</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/java5-j2ee14.xol</a:TargetModelURL>
 <a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>
@@ -2603,7 +2603,7 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>WSDLJava</a:Code>
 <a:CreationDate>1381385231</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381385231</a:ModificationDate>
+<a:ModificationDate>1381906499</a:ModificationDate>
 <a:Modifier>ansel</a:Modifier>
 <a:TargetModelURL>file:///%_XEM%/WSDLJ2EE.xem</a:TargetModelURL>
 <a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>
