@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{7C2D6F18-CE1A-4318-B6CE-6EF1DBF1CE60}" Label="" LastModificationDate="1382004323" Name="SellProductInPlane" Objects="18" Symbols="16" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{7CD168E6-3942-42DD-AB92-1FB7F9EA5F88}" Label="" LastModificationDate="1382004262" Name="Diagramme de séquence UML_1" Objects="28" Symbols="30" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -7,12 +7,12 @@
 <o:RootObject Id="o1">
 <c:Children>
 <o:Model Id="o2">
-<a:ObjectID>7C2D6F18-CE1A-4318-B6CE-6EF1DBF1CE60</a:ObjectID>
-<a:Name>SellProductInPlane</a:Name>
-<a:Code>SellProductInPlane</a:Code>
-<a:CreationDate>1381383938</a:CreationDate>
-<a:Creator>ansel</a:Creator>
-<a:ModificationDate>1382004317</a:ModificationDate>
+<a:ObjectID>7CD168E6-3942-42DD-AB92-1FB7F9EA5F88</a:ObjectID>
+<a:Name>Diagramme de séquence UML_1</a:Name>
+<a:Code>Diagramme_de_sequence_UML_1</a:Code>
+<a:CreationDate>1382000924</a:CreationDate>
+<a:Creator>Guillaume</a:Creator>
+<a:ModificationDate>1382004257</a:ModificationDate>
 <a:Modifier>Guillaume</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
@@ -26,15 +26,15 @@ GenerationSelections=</a:PackageOptionsText>
 <a:ModelOptionsText>[ModelOptions]
 
 [ModelOptions\Cld]
-CaseSensitive=Yes
+CaseSensitive=No
 DisplayName=Yes
-EnableTrans=Yes
+EnableTrans=No
 EnableRequirements=No
 ShowClss=No
 DeftAttr=int
-DeftMthd=int
+DeftMthd=
 DeftParm=int
-DeftCont=java.util.Collection
+DeftCont=
 DomnDttp=Yes
 DomnChck=No
 DomnRule=No
@@ -61,7 +61,7 @@ InvldChar=
 AllValid=Yes
 NoAccent=No
 DefaultChar=_
-Script=.convert_name(%Name%,,,firstLowerWord)
+Script=.convert_name(%Name%,&quot;_&quot;)
 ConvTable=
 ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
 
@@ -70,7 +70,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -98,7 +98,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -117,7 +117,7 @@ InvldChar=
 AllValid=Yes
 NoAccent=No
 DefaultChar=_
-Script=.convert_name(%Name%,,,FirstUpperChar)
+Script=.convert_name(%Name%,&quot;_&quot;)
 ConvTable=
 ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
 
@@ -126,7 +126,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -145,7 +145,7 @@ InvldChar=
 AllValid=Yes
 NoAccent=No
 DefaultChar=_
-Script=.convert_name(%Name%,,,FirstUpperChar)
+Script=.convert_name(%Name%,&quot;_&quot;)
 ConvTable=
 ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
 
@@ -154,7 +154,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -182,7 +182,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -210,7 +210,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -238,7 +238,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -266,7 +266,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -285,7 +285,7 @@ InvldChar=
 AllValid=Yes
 NoAccent=No
 DefaultChar=_
-Script=.convert_name(%Name%,,,FirstUpperChar)
+Script=.convert_name(%Name%,&quot;_&quot;)
 ConvTable=
 ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
 
@@ -294,7 +294,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -313,7 +313,7 @@ InvldChar=
 AllValid=Yes
 NoAccent=No
 DefaultChar=_
-Script=.convert_name(%Name%,,,firstLowerWord)
+Script=.convert_name(%Name%,&quot;_&quot;)
 ConvTable=
 ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
 
@@ -322,7 +322,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -341,7 +341,7 @@ InvldChar=
 AllValid=Yes
 NoAccent=No
 DefaultChar=_
-Script=.convert_name(%Name%,,,firstLowerWord)
+Script=.convert_name(%Name%,&quot;_&quot;)
 ConvTable=
 ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
 
@@ -350,7 +350,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -369,7 +369,7 @@ InvldChar=
 AllValid=Yes
 NoAccent=No
 DefaultChar=_
-Script=.convert_name(%Name%,,,firstLowerWord)
+Script=.convert_name(%Name%,&quot;_&quot;)
 ConvTable=
 ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
 
@@ -378,7 +378,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -406,7 +406,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -434,7 +434,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -453,7 +453,7 @@ InvldChar=
 AllValid=Yes
 NoAccent=No
 DefaultChar=_
-Script=.convert_name(%Name%,,,firstLowerWord)
+Script=.convert_name(%Name%,&quot;_&quot;)
 ConvTable=
 ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
 
@@ -462,7 +462,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -490,7 +490,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -518,7 +518,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -546,7 +546,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -574,7 +574,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -602,7 +602,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -630,7 +630,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -658,7 +658,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -686,7 +686,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -714,7 +714,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -742,7 +742,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -770,7 +770,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -798,7 +798,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -826,7 +826,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_. &quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -854,7 +854,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -882,7 +882,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -910,7 +910,7 @@ Template=
 MaxLen=254
 Case=M
 ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
-InvldChar=&quot; &#39;(.)+=*/&quot;
+InvldChar=&quot; +-*/!=&lt;&gt;&#39;&quot;&quot;().&quot;
 AllValid=Yes
 NoAccent=Yes
 DefaultChar=_
@@ -949,43 +949,29 @@ ORMapping=No
 NameToCode=No</a:ModelOptionsText>
 <c:ObjectLanguage>
 <o:Shortcut Id="o3">
-<a:ObjectID>3368DB58-91F7-4111-8FA6-CC6572E195ED</a:ObjectID>
-<a:Name>Java</a:Name>
-<a:Code>Java</a:Code>
-<a:CreationDate>1381383938</a:CreationDate>
-<a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381383938</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
+<a:ObjectID>095FA12B-BA29-45A4-AEE6-96661CF93A93</a:ObjectID>
+<a:Name>Analyse</a:Name>
+<a:Code>Analysis</a:Code>
+<a:CreationDate>1382000924</a:CreationDate>
+<a:Creator>Guillaume</a:Creator>
+<a:ModificationDate>1382000924</a:ModificationDate>
+<a:Modifier>Guillaume</a:Modifier>
 <a:TargetStereotype/>
-<a:TargetID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetID>
+<a:TargetID>87317290-AF03-469F-BC1E-99593F18A4AB</a:TargetID>
 <a:TargetClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetClassID>
 </o:Shortcut>
 </c:ObjectLanguage>
-<c:ExtendedModelDefinitions>
-<o:Shortcut Id="o4">
-<a:ObjectID>D8D4B5B7-081E-435D-A366-6743F04654C8</a:ObjectID>
-<a:Name>WSDL for Java</a:Name>
-<a:Code>WSDLJava</a:Code>
-<a:CreationDate>1381383938</a:CreationDate>
-<a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381383938</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
-<a:TargetStereotype/>
-<a:TargetID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetID>
-<a:TargetClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetClassID>
-</o:Shortcut>
-</c:ExtendedModelDefinitions>
 <c:DefaultDiagram>
-<o:SequenceDiagram Ref="o5"/>
+<o:SequenceDiagram Ref="o4"/>
 </c:DefaultDiagram>
 <c:SequenceDiagrams>
-<o:SequenceDiagram Id="o5">
-<a:ObjectID>72488A50-80FD-4FE6-B98C-FB470B40325D</a:ObjectID>
+<o:SequenceDiagram Id="o4">
+<a:ObjectID>F24D63BC-FC8C-419C-A7B7-BAD4867FB97A</a:ObjectID>
 <a:Name>SellProductInPlane</a:Name>
 <a:Code>SellProductInPlane</a:Code>
-<a:CreationDate>1381383938</a:CreationDate>
-<a:Creator>ansel</a:Creator>
-<a:ModificationDate>1382004317</a:ModificationDate>
+<a:CreationDate>1382000924</a:CreationDate>
+<a:Creator>Guillaume</a:Creator>
+<a:ModificationDate>1382004257</a:ModificationDate>
 <a:Modifier>Guillaume</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
@@ -1365,9 +1351,9 @@ Shadow=0</a:DisplayPreferences>
 <a:PageOrientation>1</a:PageOrientation>
 <a:PaperSource>15</a:PaperSource>
 <c:Symbols>
-<o:InteractionSymbol Id="o6">
-<a:ModificationDate>1382001470</a:ModificationDate>
-<a:Rect>((-21781,-490), (20496,37409))</a:Rect>
+<o:InteractionSymbol Id="o5">
+<a:ModificationDate>1382004262</a:ModificationDate>
+<a:Rect>((-23840,7100), (22830,37192))</a:Rect>
 <a:AutoAdjustToText>0</a:AutoAdjustToText>
 <a:BaseSymbol.Flags>4</a:BaseSymbol.Flags>
 <a:LineColor>15257808</a:LineColor>
@@ -1377,15 +1363,36 @@ Shadow=0</a:DisplayPreferences>
 <a:BrushStyle>4</a:BrushStyle>
 <a:ManuallyResized>1</a:ManuallyResized>
 <c:Object>
-<o:SequenceDiagram Ref="o5"/>
+<o:SequenceDiagram Ref="o4"/>
 </c:Object>
 </o:InteractionSymbol>
-<o:MessageSymbol Id="o7">
-<a:CreationDate>1382000017</a:CreationDate>
-<a:ModificationDate>1382001470</a:ModificationDate>
-<a:Rect>((-20641,26580), (-6602,28112))</a:Rect>
-<a:ListOfPoints>((-20641,26880),(-6602,26880))</a:ListOfPoints>
-<a:ArrowStyle>8</a:ArrowStyle>
+<o:MessageSymbol Id="o6">
+<a:CreationDate>1382004229</a:CreationDate>
+<a:ModificationDate>1382004229</a:ModificationDate>
+<a:Rect>((-20641,11750), (-6602,13207))</a:Rect>
+<a:ListOfPoints>((-20641,11975),(-6602,11975))</a:ListOfPoints>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>12615808</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActorSequenceSymbol Ref="o7"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActorSequenceSymbol Ref="o8"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o9"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o10">
+<a:CreationDate>1382004227</a:CreationDate>
+<a:ModificationDate>1382004227</a:ModificationDate>
+<a:Rect>((-20641,13910), (-6602,15367))</a:Rect>
+<a:ListOfPoints>((-6602,14135),(-20641,14135))</a:ListOfPoints>
+<a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>DISPNAME 0 Arial,8,N
@@ -1395,25 +1402,25 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:ActorSequenceSymbol Ref="o8"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:ActorSequenceSymbol Ref="o9"/>
+<o:ActorSequenceSymbol Ref="o7"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Message Ref="o10"/>
+<o:Message Ref="o11"/>
 </c:Object>
 </o:MessageSymbol>
-<o:MessageSymbol Id="o11">
-<a:CreationDate>1381385149</a:CreationDate>
-<a:ModificationDate>1382004323</a:ModificationDate>
-<a:Rect>((-20641,17790), (11216,19322))</a:Rect>
-<a:ListOfPoints>((11216,18090),(-20641,18090))</a:ListOfPoints>
-<a:ArrowStyle>8</a:ArrowStyle>
+<o:MessageSymbol Id="o12">
+<a:CreationDate>1382004222</a:CreationDate>
+<a:ModificationDate>1382004222</a:ModificationDate>
+<a:Rect>((-20641,16430), (-6602,17887))</a:Rect>
+<a:ListOfPoints>((-20641,16655),(-6602,16655))</a:ListOfPoints>
+<a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>DISPNAME 0 Arial,8,N
 BTIM 0 Arial,8,N
 ETIM 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:UMLObjectSequenceSymbol Ref="o12"/>
+<o:ActorSequenceSymbol Ref="o7"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
 <o:ActorSequenceSymbol Ref="o8"/>
@@ -1423,12 +1430,56 @@ ETIM 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:MessageSymbol>
 <o:MessageSymbol Id="o14">
-<a:CreationDate>1381385118</a:CreationDate>
-<a:ModificationDate>1382004323</a:ModificationDate>
-<a:Rect>((-20641,20620), (11216,22152))</a:Rect>
-<a:ListOfPoints>((-20641,20920),(11216,20920))</a:ListOfPoints>
+<a:CreationDate>1382004177</a:CreationDate>
+<a:ModificationDate>1382004177</a:ModificationDate>
+<a:Rect>((-20641,18635), (11285,20167))</a:Rect>
+<a:ListOfPoints>((11285,18935),(-20641,18935))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
+<a:DashStyle>2</a:DashStyle>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActivationSymbol Ref="o15"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActorSequenceSymbol Ref="o7"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o16"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o17">
+<a:CreationDate>1382004173</a:CreationDate>
+<a:ModificationDate>1382004173</a:ModificationDate>
+<a:Rect>((-20641,20750), (11216,22207))</a:Rect>
+<a:ListOfPoints>((-20641,20975),(11216,20975))</a:ListOfPoints>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>12615808</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActorSequenceSymbol Ref="o7"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActivationSymbol Ref="o15"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o18"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o19">
+<a:CreationDate>1382004094</a:CreationDate>
+<a:ModificationDate>1382004094</a:ModificationDate>
+<a:Rect>((-20641,23255), (-6602,24787))</a:Rect>
+<a:ListOfPoints>((-6602,23555),(-20641,23555))</a:ListOfPoints>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>12615808</a:LineColor>
+<a:DashStyle>2</a:DashStyle>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>DISPNAME 0 Arial,8,N
 BTIM 0 Arial,8,N
@@ -1437,99 +1488,36 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:ActorSequenceSymbol Ref="o8"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:UMLObjectSequenceSymbol Ref="o12"/>
+<o:ActorSequenceSymbol Ref="o7"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Message Ref="o15"/>
+<o:Message Ref="o20"/>
 </c:Object>
 </o:MessageSymbol>
-<o:MessageSymbol Id="o16">
-<a:CreationDate>1381384905</a:CreationDate>
-<a:ModificationDate>1382001470</a:ModificationDate>
-<a:Rect>((-20641,23790), (-6602,25322))</a:Rect>
-<a:ListOfPoints>((-6602,24090),(-20641,24090))</a:ListOfPoints>
-<a:ArrowStyle>8</a:ArrowStyle>
+<o:MessageSymbol Id="o21">
+<a:CreationDate>1382004078</a:CreationDate>
+<a:ModificationDate>1382004078</a:ModificationDate>
+<a:Rect>((-20641,26030), (-6602,27487))</a:Rect>
+<a:ListOfPoints>((-20641,26255),(-6602,26255))</a:ListOfPoints>
+<a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>DISPNAME 0 Arial,8,N
 BTIM 0 Arial,8,N
 ETIM 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:ActorSequenceSymbol Ref="o9"/>
+<o:ActorSequenceSymbol Ref="o7"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
 <o:ActorSequenceSymbol Ref="o8"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Message Ref="o17"/>
+<o:Message Ref="o22"/>
 </c:Object>
 </o:MessageSymbol>
-<o:MessageSymbol Id="o18">
-<a:CreationDate>1381384794</a:CreationDate>
-<a:ModificationDate>1382004323</a:ModificationDate>
-<a:Rect>((-20641,10050), (-6603,11582))</a:Rect>
-<a:ListOfPoints>((-20641,10350),(-6603,10350))</a:ListOfPoints>
-<a:ArrowStyle>8</a:ArrowStyle>
-<a:LineColor>12615808</a:LineColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>DISPNAME 0 Arial,8,N
-BTIM 0 Arial,8,N
-ETIM 0 Arial,8,N</a:FontList>
-<c:SourceSymbol>
-<o:ActorSequenceSymbol Ref="o8"/>
-</c:SourceSymbol>
-<c:DestinationSymbol>
-<o:ActorSequenceSymbol Ref="o9"/>
-</c:DestinationSymbol>
-<c:Object>
-<o:Message Ref="o19"/>
-</c:Object>
-</o:MessageSymbol>
-<o:MessageSymbol Id="o20">
-<a:CreationDate>1381384728</a:CreationDate>
-<a:ModificationDate>1382004323</a:ModificationDate>
-<a:Rect>((-20641,12478), (-6602,14010))</a:Rect>
-<a:ListOfPoints>((-6602,12778),(-20641,12778))</a:ListOfPoints>
-<a:ArrowStyle>8</a:ArrowStyle>
-<a:LineColor>12615808</a:LineColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>DISPNAME 0 Arial,8,N
-BTIM 0 Arial,8,N
-ETIM 0 Arial,8,N</a:FontList>
-<c:SourceSymbol>
-<o:ActorSequenceSymbol Ref="o9"/>
-</c:SourceSymbol>
-<c:DestinationSymbol>
-<o:ActorSequenceSymbol Ref="o8"/>
-</c:DestinationSymbol>
-<c:Object>
-<o:Message Ref="o21"/>
-</c:Object>
-</o:MessageSymbol>
-<o:MessageSymbol Id="o22">
-<a:CreationDate>1381384573</a:CreationDate>
-<a:ModificationDate>1382004323</a:ModificationDate>
-<a:Rect>((-20641,15390), (-6603,16922))</a:Rect>
-<a:ListOfPoints>((-20641,15690),(-6603,15690))</a:ListOfPoints>
-<a:ArrowStyle>8</a:ArrowStyle>
-<a:LineColor>12615808</a:LineColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>DISPNAME 0 Arial,8,N
-BTIM 0 Arial,8,N
-ETIM 0 Arial,8,N</a:FontList>
-<c:SourceSymbol>
-<o:ActorSequenceSymbol Ref="o8"/>
-</c:SourceSymbol>
-<c:DestinationSymbol>
-<o:ActorSequenceSymbol Ref="o9"/>
-</c:DestinationSymbol>
-<c:Object>
-<o:Message Ref="o23"/>
-</c:Object>
-</o:MessageSymbol>
-<o:UMLObjectSequenceSymbol Id="o12">
-<a:CreationDate>1381385050</a:CreationDate>
-<a:ModificationDate>1382001470</a:ModificationDate>
+<o:UMLObjectSequenceSymbol Id="o23">
+<a:CreationDate>1382003893</a:CreationDate>
+<a:ModificationDate>1382004173</a:ModificationDate>
 <a:Rect>((8817,29670), (13616,33269))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16775660</a:FillColor>
@@ -1541,22 +1529,34 @@ DISPNAME 0 Arial,8,U</a:FontList>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:SlaveSubSymbols>
 <o:LifelineSymbol Id="o24">
-<a:ModificationDate>1382000017</a:ModificationDate>
-<a:Rect>((11216,510), (11316,29670))</a:Rect>
-<a:ListOfPoints>((11216,29670),(11216,510))</a:ListOfPoints>
+<a:CreationDate>1382003893</a:CreationDate>
+<a:ModificationDate>1382004262</a:ModificationDate>
+<a:Rect>((11216,7100), (11316,29670))</a:Rect>
+<a:ListOfPoints>((11216,29670),(11216,7100))</a:ListOfPoints>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
 <a:DashStyle>3</a:DashStyle>
 <a:ShadowColor>8421504</a:ShadowColor>
 </o:LifelineSymbol>
+<o:ActivationSymbol Id="o15">
+<a:CreationDate>1382004173</a:CreationDate>
+<a:ModificationDate>1382004177</a:ModificationDate>
+<a:Rect>((10766,18935), (11666,20985))</a:Rect>
+<a:LineColor>8388608</a:LineColor>
+<a:FillColor>16765136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+</o:ActivationSymbol>
 </c:SlaveSubSymbols>
 <c:Object>
 <o:UMLObject Ref="o25"/>
 </c:Object>
 </o:UMLObjectSequenceSymbol>
-<o:ActorSequenceSymbol Id="o8">
-<a:CreationDate>1381470634</a:CreationDate>
-<a:ModificationDate>1382001470</a:ModificationDate>
+<o:ActorSequenceSymbol Id="o7">
+<a:CreationDate>1382003893</a:CreationDate>
+<a:ModificationDate>1382003893</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
 <a:Rect>((-23041,29670), (-18242,33269))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
@@ -1569,9 +1569,10 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:SlaveSubSymbols>
 <o:LifelineSymbol Id="o26">
-<a:ModificationDate>1382000017</a:ModificationDate>
-<a:Rect>((-20641,510), (-20541,29670))</a:Rect>
-<a:ListOfPoints>((-20641,29670),(-20641,510))</a:ListOfPoints>
+<a:CreationDate>1382003893</a:CreationDate>
+<a:ModificationDate>1382004262</a:ModificationDate>
+<a:Rect>((-20641,7100), (-20541,29670))</a:Rect>
+<a:ListOfPoints>((-20641,29670),(-20641,7100))</a:ListOfPoints>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
 <a:DashStyle>3</a:DashStyle>
@@ -1582,9 +1583,9 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <o:Actor Ref="o27"/>
 </c:Object>
 </o:ActorSequenceSymbol>
-<o:ActorSequenceSymbol Id="o9">
-<a:CreationDate>1381470635</a:CreationDate>
-<a:ModificationDate>1382001470</a:ModificationDate>
+<o:ActorSequenceSymbol Id="o8">
+<a:CreationDate>1382003893</a:CreationDate>
+<a:ModificationDate>1382003893</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
 <a:Rect>((-9002,29670), (-4203,33269))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
@@ -1597,9 +1598,10 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:SlaveSubSymbols>
 <o:LifelineSymbol Id="o28">
-<a:ModificationDate>1382000017</a:ModificationDate>
-<a:Rect>((-6602,510), (-6502,29670))</a:Rect>
-<a:ListOfPoints>((-6602,29670),(-6602,510))</a:ListOfPoints>
+<a:CreationDate>1382003893</a:CreationDate>
+<a:ModificationDate>1382004262</a:ModificationDate>
+<a:Rect>((-6602,7100), (-6502,29670))</a:Rect>
+<a:ListOfPoints>((-6602,29670),(-6602,7100))</a:ListOfPoints>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
 <a:DashStyle>3</a:DashStyle>
@@ -1615,44 +1617,45 @@ DISPNAME 0 Arial,8,N</a:FontList>
 </c:SequenceDiagrams>
 <c:Actors>
 <o:Actor Id="o27">
-<a:ObjectID>8C6778A5-957F-400D-AA6B-B4992115308F</a:ObjectID>
+<a:ObjectID>6F93B855-5EC0-4E43-A407-929F445E21C7</a:ObjectID>
 <a:Name>Steward</a:Name>
 <a:Code>Steward</a:Code>
-<a:CreationDate>1381470634</a:CreationDate>
-<a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381999609</a:ModificationDate>
+<a:CreationDate>1382003893</a:CreationDate>
+<a:Creator>Guillaume</a:Creator>
+<a:ModificationDate>1382003893</a:ModificationDate>
 <a:Modifier>Guillaume</a:Modifier>
 </o:Actor>
 <o:Actor Id="o29">
-<a:ObjectID>38CB8E8C-B4ED-4176-B572-3799EF7703D5</a:ObjectID>
+<a:ObjectID>E1216907-1FF1-41F0-B60A-C638FEBF7BF3</a:ObjectID>
 <a:Name>Client</a:Name>
 <a:Code>Client</a:Code>
-<a:CreationDate>1381470635</a:CreationDate>
-<a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381470715</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
+<a:CreationDate>1382003893</a:CreationDate>
+<a:Creator>Guillaume</a:Creator>
+<a:ModificationDate>1382003893</a:ModificationDate>
+<a:Modifier>Guillaume</a:Modifier>
 </o:Actor>
 </c:Actors>
 <c:Model.Objects>
 <o:UMLObject Id="o25">
-<a:ObjectID>CE223B4B-8296-4E53-A993-26E4E98EF7E2</a:ObjectID>
+<a:ObjectID>5DC0F2AB-8DD3-4249-8361-C65E7E93247F</a:ObjectID>
 <a:Name>Stock</a:Name>
 <a:Code>Stock</a:Code>
-<a:CreationDate>1381385050</a:CreationDate>
-<a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381385164</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
+<a:CreationDate>1382003893</a:CreationDate>
+<a:Creator>Guillaume</a:Creator>
+<a:ModificationDate>1382003893</a:ModificationDate>
+<a:Modifier>Guillaume</a:Modifier>
 </o:UMLObject>
 </c:Model.Objects>
 <c:Messages>
-<o:Message Id="o23">
-<a:ObjectID>92737B11-0EF0-436C-BFD6-CFA0BD2E761D</a:ObjectID>
-<a:Name>PriceProduct</a:Name>
-<a:Code>PriceProduct</a:Code>
-<a:CreationDate>1381384573</a:CreationDate>
-<a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381906483</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
+<o:Message Id="o22">
+<a:ObjectID>09E03B9A-4EA2-4039-963B-8A21929F36D7</a:ObjectID>
+<a:Name>askIfNeedProduct</a:Name>
+<a:Code>askIfNeedProduct</a:Code>
+<a:CreationDate>1382004078</a:CreationDate>
+<a:Creator>Guillaume</a:Creator>
+<a:ModificationDate>1382004088</a:ModificationDate>
+<a:Modifier>Guillaume</a:Modifier>
+<a:ControlFlow>C</a:ControlFlow>
 <c:Object1>
 <o:Actor Ref="o29"/>
 </c:Object1>
@@ -1660,44 +1663,15 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <o:Actor Ref="o27"/>
 </c:Object2>
 </o:Message>
-<o:Message Id="o21">
-<a:ObjectID>E3311119-F3F2-4852-8262-C78C17478B88</a:ObjectID>
-<a:Name>GiveMoney</a:Name>
-<a:Code>GiveMoney</a:Code>
-<a:CreationDate>1381384728</a:CreationDate>
-<a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381906487</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
-<c:Object1>
-<o:Actor Ref="o27"/>
-</c:Object1>
-<c:Object2>
-<o:Actor Ref="o29"/>
-</c:Object2>
-</o:Message>
-<o:Message Id="o19">
-<a:ObjectID>B7BB145C-ADF4-44FD-BFAF-EAF7C2431AD2</a:ObjectID>
-<a:Name>GiveProduct</a:Name>
-<a:Code>GiveProduct</a:Code>
-<a:CreationDate>1381384794</a:CreationDate>
-<a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381470704</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
-<c:Object1>
-<o:Actor Ref="o29"/>
-</c:Object1>
-<c:Object2>
-<o:Actor Ref="o27"/>
-</c:Object2>
-</o:Message>
-<o:Message Id="o17">
-<a:ObjectID>326C2BB2-ABF6-4CEA-8605-DB8034BDDDE8</a:ObjectID>
+<o:Message Id="o20">
+<a:ObjectID>CA2AF99A-33BB-48ED-B22E-4564F2A119DD</a:ObjectID>
 <a:Name>Product</a:Name>
 <a:Code>Product</a:Code>
-<a:CreationDate>1381384905</a:CreationDate>
-<a:Creator>ansel</a:Creator>
-<a:ModificationDate>1382004311</a:ModificationDate>
+<a:CreationDate>1382004094</a:CreationDate>
+<a:Creator>Guillaume</a:Creator>
+<a:ModificationDate>1382004161</a:ModificationDate>
 <a:Modifier>Guillaume</a:Modifier>
+<a:ControlFlow>R</a:ControlFlow>
 <c:Object1>
 <o:Actor Ref="o27"/>
 </c:Object1>
@@ -1705,44 +1679,79 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <o:Actor Ref="o29"/>
 </c:Object2>
 </o:Message>
-<o:Message Id="o15">
-<a:ObjectID>1BE87A3F-D0D6-45DD-A5E8-2B924FB615DF</a:ObjectID>
-<a:Name>StockProduct</a:Name>
-<a:Code>StockProduct</a:Code>
-<a:CreationDate>1381385118</a:CreationDate>
-<a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381906478</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
+<o:Message Id="o18">
+<a:ObjectID>917255E6-7EAF-4C6D-BEBB-35A5046A5F5F</a:ObjectID>
+<a:Name>stillProduct</a:Name>
+<a:Code>stillProduct</a:Code>
+<a:CreationDate>1382004173</a:CreationDate>
+<a:Creator>Guillaume</a:Creator>
+<a:ModificationDate>1382004206</a:ModificationDate>
+<a:Modifier>Guillaume</a:Modifier>
+<a:ControlFlow>C</a:ControlFlow>
 <c:Object1>
 <o:UMLObject Ref="o25"/>
 </c:Object1>
 <c:Object2>
 <o:Actor Ref="o27"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o16">
+<a:ObjectID>2C996618-271D-4ABC-9CFF-0E8266D2CB92</a:ObjectID>
+<a:Name>Yes</a:Name>
+<a:Code>Yes</a:Code>
+<a:CreationDate>1382004177</a:CreationDate>
+<a:Creator>Guillaume</a:Creator>
+<a:ModificationDate>1382004208</a:ModificationDate>
+<a:Modifier>Guillaume</a:Modifier>
+<a:ControlFlow>R</a:ControlFlow>
+<c:Object1>
+<o:Actor Ref="o27"/>
+</c:Object1>
+<c:Object2>
+<o:UMLObject Ref="o25"/>
 </c:Object2>
 </o:Message>
 <o:Message Id="o13">
-<a:ObjectID>38C859D1-B064-4394-BCEE-31DAE74C262A</a:ObjectID>
-<a:Name>Yes</a:Name>
-<a:Code>Yes</a:Code>
-<a:CreationDate>1381385149</a:CreationDate>
-<a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381999377</a:ModificationDate>
+<a:ObjectID>0B94907C-BCFC-4F78-A310-7119D5B5CDC8</a:ObjectID>
+<a:Name>givePrice</a:Name>
+<a:Code>givePrice</a:Code>
+<a:CreationDate>1382004222</a:CreationDate>
+<a:Creator>Guillaume</a:Creator>
+<a:ModificationDate>1382004244</a:ModificationDate>
 <a:Modifier>Guillaume</a:Modifier>
+<a:ControlFlow>C</a:ControlFlow>
+<c:Object1>
+<o:Actor Ref="o29"/>
+</c:Object1>
+<c:Object2>
+<o:Actor Ref="o27"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o11">
+<a:ObjectID>9AD7A23E-05AE-44A4-B56D-070524916DD6</a:ObjectID>
+<a:Name>giveMoney</a:Name>
+<a:Code>giveMoney</a:Code>
+<a:CreationDate>1382004227</a:CreationDate>
+<a:Creator>Guillaume</a:Creator>
+<a:ModificationDate>1382004248</a:ModificationDate>
+<a:Modifier>Guillaume</a:Modifier>
+<a:ControlFlow>C</a:ControlFlow>
 <c:Object1>
 <o:Actor Ref="o27"/>
 </c:Object1>
 <c:Object2>
-<o:UMLObject Ref="o25"/>
+<o:Actor Ref="o29"/>
 </c:Object2>
 </o:Message>
-<o:Message Id="o10">
-<a:ObjectID>CBF4BD27-F514-4973-AFDD-8054857D12DA</a:ObjectID>
-<a:Name>Need Product ?</a:Name>
-<a:Code>Need_Product_?</a:Code>
-<a:CreationDate>1382000017</a:CreationDate>
+<o:Message Id="o9">
+<a:ObjectID>8C8B200E-5425-49DD-AA63-3FDB5839AC2A</a:ObjectID>
+<a:Name>giveProduct</a:Name>
+<a:Code>giveProduct</a:Code>
+<a:CreationDate>1382004229</a:CreationDate>
 <a:Creator>Guillaume</a:Creator>
-<a:ModificationDate>1382000055</a:ModificationDate>
+<a:ModificationDate>1382004254</a:ModificationDate>
 <a:Modifier>Guillaume</a:Modifier>
+<a:ControlFlow>C</a:ControlFlow>
 <c:Object1>
 <o:Actor Ref="o29"/>
 </c:Object1>
@@ -1753,33 +1762,18 @@ DISPNAME 0 Arial,8,N</a:FontList>
 </c:Messages>
 <c:TargetModels>
 <o:TargetModel Id="o30">
-<a:ObjectID>E2D780DF-3244-4240-AED1-227CDB0E4473</a:ObjectID>
-<a:Name>Java</a:Name>
-<a:Code>Java</a:Code>
-<a:CreationDate>1381383938</a:CreationDate>
-<a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381999286</a:ModificationDate>
+<a:ObjectID>F7296832-BDAD-46BE-AB79-07F94B5BFC2F</a:ObjectID>
+<a:Name>Analyse</a:Name>
+<a:Code>Analysis</a:Code>
+<a:CreationDate>1382000924</a:CreationDate>
+<a:Creator>Guillaume</a:Creator>
+<a:ModificationDate>1382000924</a:ModificationDate>
 <a:Modifier>Guillaume</a:Modifier>
-<a:TargetModelURL>file:///%_OBJLANG%/java5-j2ee14.xol</a:TargetModelURL>
-<a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>
+<a:TargetModelURL>file:///%_OBJLANG%/analysis.xol</a:TargetModelURL>
+<a:TargetModelID>87317290-AF03-469F-BC1E-99593F18A4AB</a:TargetModelID>
 <a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
 <c:SessionShortcuts>
 <o:Shortcut Ref="o3"/>
-</c:SessionShortcuts>
-</o:TargetModel>
-<o:TargetModel Id="o31">
-<a:ObjectID>0401D9BB-D286-4533-911B-CE44B58101CA</a:ObjectID>
-<a:Name>WSDL for Java</a:Name>
-<a:Code>WSDLJava</a:Code>
-<a:CreationDate>1381383938</a:CreationDate>
-<a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381999286</a:ModificationDate>
-<a:Modifier>Guillaume</a:Modifier>
-<a:TargetModelURL>file:///%_XEM%/WSDLJ2EE.xem</a:TargetModelURL>
-<a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>
-<a:TargetModelClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetModelClassID>
-<c:SessionShortcuts>
-<o:Shortcut Ref="o4"/>
 </c:SessionShortcuts>
 </o:TargetModel>
 </c:TargetModels>
