@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{38CA8A22-1D71-4149-A353-C80955A40511}" Label="" LastModificationDate="1381992303" Name="ManageFlight_SystemSequence" Objects="25" Symbols="24" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{38CA8A22-1D71-4149-A353-C80955A40511}" Label="" LastModificationDate="1381998677" Name="ManageFlight_SystemSequence" Objects="25" Symbols="24" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1592,8 +1592,9 @@ ETIM 0 Arial,8,N</a:FontList>
 </o:MessageSymbol>
 <o:MessageSymbol Id="o31">
 <a:CreationDate>1381401561</a:CreationDate>
-<a:ModificationDate>1381402157</a:ModificationDate>
-<a:Rect>((-22076,-7980), (-8936,-6448))</a:Rect>
+<a:ModificationDate>1381998037</a:ModificationDate>
+<a:CenterTextOffset>(60, 240)</a:CenterTextOffset>
+<a:Rect>((-22076,-7980), (-8936,-6208))</a:Rect>
 <a:ListOfPoints>((-22076,-7680),(-8936,-7680))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1634,9 +1635,9 @@ ETIM 0 Arial,8,N</a:FontList>
 </o:MessageSymbol>
 <o:MessageSymbol Id="o35">
 <a:CreationDate>1381401514</a:CreationDate>
-<a:ModificationDate>1381992300</a:ModificationDate>
-<a:Rect>((-22076,120), (-8936,1652))</a:Rect>
-<a:ListOfPoints>((-8936,420),(-22076,420))</a:ListOfPoints>
+<a:ModificationDate>1381998677</a:ModificationDate>
+<a:Rect>((-22076,480), (-8936,2012))</a:Rect>
+<a:ListOfPoints>((-8936,780),(-22076,780))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1910,11 +1911,11 @@ DISPNAME 0 Arial,8,U</a:FontList>
 </o:Message>
 <o:Message Id="o32">
 <a:ObjectID>FC99F5FE-672D-4C48-9DD6-B2FC1A046060</a:ObjectID>
-<a:Name>Add refuel event if already 4 flights</a:Name>
-<a:Code>Add_refuel_event_if_already_4_flights</a:Code>
+<a:Name>[4 flights] Add refuel event</a:Name>
+<a:Code>[4_flights]_Add_refuel_event</a:Code>
 <a:CreationDate>1381401561</a:CreationDate>
 <a:Creator>Guillaume</a:Creator>
-<a:ModificationDate>1381401818</a:ModificationDate>
+<a:ModificationDate>1381998031</a:ModificationDate>
 <a:Modifier>Guillaume</a:Modifier>
 <c:Object1>
 <o:UMLObject Ref="o44"/>
@@ -2081,7 +2082,7 @@ DISPNAME 0 Arial,8,U</a:FontList>
 <a:Code>Java</a:Code>
 <a:CreationDate>1381394303</a:CreationDate>
 <a:Creator>Guillaume</a:Creator>
-<a:ModificationDate>1381820327</a:ModificationDate>
+<a:ModificationDate>1381994156</a:ModificationDate>
 <a:Modifier>Guillaume</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/java5-j2ee14.xol</a:TargetModelURL>
 <a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>
@@ -2096,7 +2097,7 @@ DISPNAME 0 Arial,8,U</a:FontList>
 <a:Code>WSDLJava</a:Code>
 <a:CreationDate>1381394303</a:CreationDate>
 <a:Creator>Guillaume</a:Creator>
-<a:ModificationDate>1381820327</a:ModificationDate>
+<a:ModificationDate>1381994156</a:ModificationDate>
 <a:Modifier>Guillaume</a:Modifier>
 <a:TargetModelURL>file:///%_XEM%/WSDLJ2EE.xem</a:TargetModelURL>
 <a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>

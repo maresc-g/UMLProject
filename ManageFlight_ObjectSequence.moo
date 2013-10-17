@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{50C3C2A7-AFE9-4F68-86EF-EB7876D06BB3}" Label="" LastModificationDate="1381993557" Name="ManageFlight_ObjectSequence" Objects="42" Symbols="58" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{50C3C2A7-AFE9-4F68-86EF-EB7876D06BB3}" Label="" LastModificationDate="1381998001" Name="ManageFlight_ObjectSequence" Objects="23" Symbols="37" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1392,7 +1392,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <a:CreationDate>1381992169</a:CreationDate>
 <a:ModificationDate>1381992245</a:ModificationDate>
 <a:CenterTextOffset>(1980, 1260)</a:CenterTextOffset>
-<a:Rect>((9930,17180), (24930,21432))</a:Rect>
+<a:Rect>((9840,17180), (25020,21432))</a:Rect>
 <a:ListOfPoints>((11850,18780),(15450,18780),(15450,17180),(11850,17180))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -2056,11 +2056,11 @@ DISPNAME 0 Arial,8,U</a:FontList>
 </o:Message>
 <o:Message Id="o38">
 <a:ObjectID>5A213411-BEC4-4042-8A4E-9E4DC2217E17</a:ObjectID>
-<a:Name>addRefuelEvent</a:Name>
-<a:Code>addRefuelEvent</a:Code>
+<a:Name>[4 flights] addRefuelEvent</a:Name>
+<a:Code>[4_flights]_addRefuelEvent</a:Code>
 <a:CreationDate>1381991447</a:CreationDate>
 <a:Creator>Guillaume</a:Creator>
-<a:ModificationDate>1381991497</a:ModificationDate>
+<a:ModificationDate>1381998001</a:ModificationDate>
 <a:Modifier>Guillaume</a:Modifier>
 <a:ControlFlow>C</a:ControlFlow>
 <c:Object1>
@@ -2185,11 +2185,11 @@ DISPNAME 0 Arial,8,U</a:FontList>
 </o:Message>
 <o:Message Id="o12">
 <a:ObjectID>48651DFA-64FE-485F-BA98-94828C0E0C3C</a:ObjectID>
-<a:Name>*[not enough employee] [] employee in city and available</a:Name>
-<a:Code>_[not_enough_employee]_[]_employee_in_city_and_available</a:Code>
+<a:Name>*[not enough employee] [employee in city and available] addToList</a:Name>
+<a:Code>_[not_enough_employee]_[employee_in_city_and_available]_addToList</a:Code>
 <a:CreationDate>1381992169</a:CreationDate>
 <a:Creator>Guillaume</a:Creator>
-<a:ModificationDate>1381992233</a:ModificationDate>
+<a:ModificationDate>1381994222</a:ModificationDate>
 <a:Modifier>Guillaume</a:Modifier>
 <a:ControlFlow>C</a:ControlFlow>
 <a:Delay>1</a:Delay>
@@ -2224,7 +2224,7 @@ DISPNAME 0 Arial,8,U</a:FontList>
 <a:Code>Analysis</a:Code>
 <a:CreationDate>1381990618</a:CreationDate>
 <a:Creator>Guillaume</a:Creator>
-<a:ModificationDate>1381990618</a:ModificationDate>
+<a:ModificationDate>1381994160</a:ModificationDate>
 <a:Modifier>Guillaume</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/analysis.xol</a:TargetModelURL>
 <a:TargetModelID>87317290-AF03-469F-BC1E-99593F18A4AB</a:TargetModelID>
