@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{85D92474-06DD-4562-83B0-3C4D16233522}" Label="" LastModificationDate="1382000225" Name="ModeleOrienteObjet_1" Objects="32" Symbols="41" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{85D92474-06DD-4562-83B0-3C4D16233522}" Label="" LastModificationDate="1382001371" Name="ModeleOrienteObjet_1" Objects="30" Symbols="37" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1919,7 +1919,7 @@ DISPNAME 0 Arial,8,U</a:FontList>
 <o:UMLObjectSequenceSymbol Id="o62">
 <a:CreationDate>1381997545</a:CreationDate>
 <a:ModificationDate>1381999934</a:ModificationDate>
-<a:Rect>((6527,21718), (11326,25317))</a:Rect>
+<a:Rect>((5929,21718), (11927,25317))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16775660</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1931,8 +1931,8 @@ DISPNAME 0 Arial,8,U</a:FontList>
 <c:SlaveSubSymbols>
 <o:LifelineSymbol Id="o63">
 <a:ModificationDate>1381999745</a:ModificationDate>
-<a:Rect>((8926,-20849), (9026,21718))</a:Rect>
-<a:ListOfPoints>((8926,21718),(8926,-20849))</a:ListOfPoints>
+<a:Rect>((8928,-20849), (9028,21718))</a:Rect>
+<a:ListOfPoints>((8928,21718),(8928,-20849))</a:ListOfPoints>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
 <a:DashStyle>3</a:DashStyle>
@@ -2046,11 +2046,11 @@ DISPNAME 0 Arial,8,U</a:FontList>
 </o:UMLObject>
 <o:UMLObject Id="o64">
 <a:ObjectID>92FB62BA-6B63-4236-B26D-2DFC19E681B4</a:ObjectID>
-<a:Name>Schedule</a:Name>
-<a:Code>Schedule</a:Code>
+<a:Name>FlightSchedule</a:Name>
+<a:Code>FlightSchedule</a:Code>
 <a:CreationDate>1381997545</a:CreationDate>
 <a:Creator>Cyril</a:Creator>
-<a:ModificationDate>1382000225</a:ModificationDate>
+<a:ModificationDate>1382001371</a:ModificationDate>
 <a:Modifier>Cyril</a:Modifier>
 </o:UMLObject>
 <o:UMLObject Id="o66">
@@ -2391,7 +2391,7 @@ DISPNAME 0 Arial,8,U</a:FontList>
 <a:Code>Java</a:Code>
 <a:CreationDate>1381996545</a:CreationDate>
 <a:Creator>Cyril</a:Creator>
-<a:ModificationDate>1381996545</a:ModificationDate>
+<a:ModificationDate>1382001346</a:ModificationDate>
 <a:Modifier>Cyril</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/java5-j2ee14.xol</a:TargetModelURL>
 <a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>
