@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{50C3C2A7-AFE9-4F68-86EF-EB7876D06BB3}" Label="" LastModificationDate="1382002673" Name="ManageFlight_ObjectSequence" Objects="23" Symbols="37" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{50C3C2A7-AFE9-4F68-86EF-EB7876D06BB3}" Label="" LastModificationDate="1381998001" Name="ManageFlight_ObjectSequence" Objects="23" Symbols="37" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1412,9 +1412,9 @@ ETIM 0 Arial,8,N</a:FontList>
 </o:MessageSymbol>
 <o:MessageSymbol Id="o13">
 <a:CreationDate>1381991983</a:CreationDate>
-<a:ModificationDate>1382002673</a:ModificationDate>
-<a:Rect>((-22376,22410), (-9478,23942))</a:Rect>
-<a:ListOfPoints>((-9478,22710),(-22376,22710))</a:ListOfPoints>
+<a:ModificationDate>1381992569</a:ModificationDate>
+<a:Rect>((-22376,23100), (-9570,24632))</a:Rect>
+<a:ListOfPoints>((-9570,23400),(-22376,23400))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
 <a:DashStyle>2</a:DashStyle>
@@ -1434,10 +1434,10 @@ ETIM 0 Arial,8,N</a:FontList>
 </o:MessageSymbol>
 <o:MessageSymbol Id="o16">
 <a:CreationDate>1381991978</a:CreationDate>
-<a:ModificationDate>1382002673</a:ModificationDate>
+<a:ModificationDate>1381992076</a:ModificationDate>
 <a:CenterTextOffset>(4500, 240)</a:CenterTextOffset>
-<a:Rect>((-9478,24020), (5462,27252))</a:Rect>
-<a:ListOfPoints>((-9478,25620),(-5878,25620),(-5878,24020),(-9478,24020))</a:ListOfPoints>
+<a:Rect>((-9478,24860), (5462,28092))</a:Rect>
+<a:ListOfPoints>((-9478,26460),(-5878,26460),(-5878,24860),(-9478,24860))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1457,7 +1457,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o19">
 <a:CreationDate>1381991872</a:CreationDate>
 <a:ModificationDate>1381992569</a:ModificationDate>
-<a:Rect>((-9570,-4665), (1409,-3207))</a:Rect>
+<a:Rect>((-9584,-4665), (1516,-3207))</a:Rect>
 <a:ListOfPoints>((-9570,-4440),(1409,-4440))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1499,7 +1499,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o27">
 <a:CreationDate>1381991789</a:CreationDate>
 <a:ModificationDate>1381992569</a:ModificationDate>
-<a:Rect>((11970,6015), (21989,7472))</a:Rect>
+<a:Rect>((11279,6015), (22559,7472))</a:Rect>
 <a:ListOfPoints>((11970,6240),(21989,6240))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1645,9 +1645,9 @@ ETIM 0 Arial,8,N</a:FontList>
 </o:MessageSymbol>
 <o:MessageSymbol Id="o45">
 <a:CreationDate>1381991234</a:CreationDate>
-<a:ModificationDate>1382002656</a:ModificationDate>
-<a:Rect>((-22376,27565), (-9478,29022))</a:Rect>
-<a:ListOfPoints>((-22376,27790),(-9478,27790))</a:ListOfPoints>
+<a:ModificationDate>1381992569</a:ModificationDate>
+<a:Rect>((-22376,27555), (-9478,29012))</a:Rect>
+<a:ListOfPoints>((-22376,27780),(-9478,27780))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1718,16 +1718,14 @@ DISPNAME 0 Arial,8,U</a:FontList>
 </o:LifelineSymbol>
 <o:ActivationSymbol Id="o17">
 <a:CreationDate>1381991234</a:CreationDate>
-<a:ModificationDate>1382002656</a:ModificationDate>
-<a:Rect>((-9928,24480), (-9028,27800))</a:Rect>
-<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:ModificationDate>1381991551</a:ModificationDate>
+<a:Rect>((-9928,25380), (-9028,27790))</a:Rect>
 <a:LineColor>8388608</a:LineColor>
 <a:FillColor>16765136</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:BrushStyle>6</a:BrushStyle>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
-<a:ManuallyResized>1</a:ManuallyResized>
 </o:ActivationSymbol>
 <o:ActivationSymbol Id="o32">
 <a:CreationDate>1381991379</a:CreationDate>
@@ -1764,8 +1762,8 @@ DISPNAME 0 Arial,8,U</a:FontList>
 </o:ActivationSymbol>
 <o:ActivationSymbol Id="o14">
 <a:CreationDate>1381991978</a:CreationDate>
-<a:ModificationDate>1382002673</a:ModificationDate>
-<a:Rect>((-9928,22635), (-9028,24095))</a:Rect>
+<a:ModificationDate>1381993549</a:ModificationDate>
+<a:Rect>((-9928,23400), (-9028,24860))</a:Rect>
 <a:LineColor>8388608</a:LineColor>
 <a:FillColor>16765136</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2106,11 +2104,11 @@ DISPNAME 0 Arial,8,U</a:FontList>
 </o:Message>
 <o:Message Id="o30">
 <a:ObjectID>18AF3C63-D8D2-4A17-972D-27ACFEE169D5</a:ObjectID>
-<a:Name>addEvent</a:Name>
-<a:Code>addEvent</a:Code>
+<a:Name>addFlightInEmployeeSchedule</a:Name>
+<a:Code>addFlightInEmployeeSchedule</a:Code>
 <a:CreationDate>1381991789</a:CreationDate>
 <a:Creator>Guillaume</a:Creator>
-<a:ModificationDate>1382002030</a:ModificationDate>
+<a:ModificationDate>1381991810</a:ModificationDate>
 <a:Modifier>Guillaume</a:Modifier>
 <a:ControlFlow>C</a:ControlFlow>
 <c:Object1>
@@ -2122,11 +2120,11 @@ DISPNAME 0 Arial,8,U</a:FontList>
 </o:Message>
 <o:Message Id="o26">
 <a:ObjectID>018CD127-AFF3-4F3A-BE82-4068EBD74C65</a:ObjectID>
-<a:Name>addEvent</a:Name>
-<a:Code>addEvent</a:Code>
+<a:Name>addRefuelEvent</a:Name>
+<a:Code>addRefuelEvent</a:Code>
 <a:CreationDate>1381991868</a:CreationDate>
 <a:Creator>Guillaume</a:Creator>
-<a:ModificationDate>1382002007</a:ModificationDate>
+<a:ModificationDate>1381991878</a:ModificationDate>
 <a:Modifier>Guillaume</a:Modifier>
 <a:ControlFlow>C</a:ControlFlow>
 <c:Object1>
@@ -2138,11 +2136,11 @@ DISPNAME 0 Arial,8,U</a:FontList>
 </o:Message>
 <o:Message Id="o22">
 <a:ObjectID>CC49E38C-BE5D-4554-82A7-7BCD69FA7FE9</a:ObjectID>
-<a:Name>addEvent</a:Name>
-<a:Code>addEvent</a:Code>
+<a:Name>addReloadConsumablesEvent</a:Name>
+<a:Code>addReloadConsumablesEvent</a:Code>
 <a:CreationDate>1381991872</a:CreationDate>
 <a:Creator>Guillaume</a:Creator>
-<a:ModificationDate>1382002012</a:ModificationDate>
+<a:ModificationDate>1381991885</a:ModificationDate>
 <a:Modifier>Guillaume</a:Modifier>
 <a:ControlFlow>C</a:ControlFlow>
 <c:Object1>
