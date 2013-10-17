@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{6F7BD6A6-D0D3-4187-8FE8-241B0B122513}" Label="" LastModificationDate="1381819643" Name="UseCasesDiagram" Objects="69" Symbols="65" Target="C++" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{6F7BD6A6-D0D3-4187-8FE8-241B0B122513}" Label="" LastModificationDate="1381819643" Name="UseCasesDiagram" Objects="62" Symbols="58" Target="C++" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
