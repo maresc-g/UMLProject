@@ -1807,7 +1807,7 @@ MULA 0 Arial,8,N</a:FontList>
 <a:CreationDate>1381833717</a:CreationDate>
 <a:ModificationDate>1382002782</a:ModificationDate>
 <a:DestinationTextOffset>(-570, 460)</a:DestinationTextOffset>
-<a:Rect>((9551,9657), (13223,28396))</a:Rect>
+<a:Rect>((9551,9657), (13313,28396))</a:Rect>
 <a:ListOfPoints>((11213,28396),(11213,19763),(11111,19763),(11111,9657))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>3336</a:ArrowStyle>
@@ -1828,7 +1828,7 @@ MULA 0 Arial,8,N</a:FontList>
 <o:AssociationSymbol Id="o65">
 <a:CreationDate>1381833728</a:CreationDate>
 <a:ModificationDate>1382001683</a:ModificationDate>
-<a:Rect>((-39289,-14270), (-7370,28801))</a:Rect>
+<a:Rect>((-39379,-14270), (-7370,28801))</a:Rect>
 <a:ListOfPoints>((-37279,-14270),(-37279,28801),(-7370,28801))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>3336</a:ArrowStyle>
@@ -1849,7 +1849,7 @@ MULA 0 Arial,8,N</a:FontList>
 <o:AssociationSymbol Id="o68">
 <a:CreationDate>1381833931</a:CreationDate>
 <a:ModificationDate>1381988767</a:ModificationDate>
-<a:Rect>((1140,20160), (5040,34800))</a:Rect>
+<a:Rect>((1050,20160), (5130,34800))</a:Rect>
 <a:ListOfPoints>((3150,20160),(3150,34800))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>3592</a:ArrowStyle>
@@ -1931,7 +1931,7 @@ MULA 0 Arial,8,N</a:FontList>
 <o:AssociationSymbol Id="o79">
 <a:CreationDate>1381988334</a:CreationDate>
 <a:ModificationDate>1381988556</a:ModificationDate>
-<a:Rect>((-19390,25680), (-17990,35400))</a:Rect>
+<a:Rect>((-19890,25680), (-16710,35400))</a:Rect>
 <a:ListOfPoints>((-18690,25680),(-18690,35400))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>3336</a:ArrowStyle>
@@ -1973,7 +1973,7 @@ MULA 0 Arial,8,N</a:FontList>
 <o:AssociationSymbol Id="o85">
 <a:CreationDate>1381988482</a:CreationDate>
 <a:ModificationDate>1382001699</a:ModificationDate>
-<a:Rect>((2910,10620), (13620,35420))</a:Rect>
+<a:Rect>((2910,10620), (13530,35420))</a:Rect>
 <a:ListOfPoints>((2910,34260),(13530,34260),(13530,10620))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>3336</a:ArrowStyle>
