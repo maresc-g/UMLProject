@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{D44500F5-2923-48F8-A15F-1A647783F3FA}" Label="" LastModificationDate="1381818499" Name="RelaunchMarketing" Objects="24" Symbols="23" Target="C++" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{D44500F5-2923-48F8-A15F-1A647783F3FA}" Label="" LastModificationDate="1381906452" Name="RelaunchMarketing" Objects="19" Symbols="18" Target="C++" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1390,7 +1390,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o10">
 <a:CreationDate>1381818475</a:CreationDate>
 <a:ModificationDate>1381818482</a:ModificationDate>
-<a:Rect>((11279,-20860), (17399,-18420))</a:Rect>
+<a:Rect>((11279,-20860), (17309,-18420))</a:Rect>
 <a:ListOfPoints>((11279,-18420),(14879,-18420),(14879,-20860),(11279,-20860))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1453,7 +1453,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o16">
 <a:CreationDate>1381818420</a:CreationDate>
 <a:ModificationDate>1381818432</a:ModificationDate>
-<a:Rect>((-13500,-13600), (-7650,-11580))</a:Rect>
+<a:Rect>((-13500,-13600), (-7741,-11580))</a:Rect>
 <a:ListOfPoints>((-13500,-11580),(-9900,-11580),(-9900,-13600),(-13500,-13600))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1495,7 +1495,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o20">
 <a:CreationDate>1381818373</a:CreationDate>
 <a:ModificationDate>1381818373</a:ModificationDate>
-<a:Rect>((11279,-8980), (17429,-7380))</a:Rect>
+<a:Rect>((11279,-8980), (17339,-7380))</a:Rect>
 <a:ListOfPoints>((11279,-7380),(14879,-7380),(14879,-8980),(11279,-8980))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1558,7 +1558,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o26">
 <a:CreationDate>1381818238</a:CreationDate>
 <a:ModificationDate>1381818255</a:ModificationDate>
-<a:Rect>((10529,-2260), (19229,360))</a:Rect>
+<a:Rect>((10620,-2260), (19139,360))</a:Rect>
 <a:ListOfPoints>((11279,360),(14879,360),(14879,-2260),(11279,-2260))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1621,7 +1621,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o32">
 <a:CreationDate>1381818155</a:CreationDate>
 <a:ModificationDate>1381818162</a:ModificationDate>
-<a:Rect>((-13500,5780), (-7590,8040))</a:Rect>
+<a:Rect>((-13500,5780), (-7681,8040))</a:Rect>
 <a:ListOfPoints>((-13500,8040),(-9900,8040),(-9900,5780),(-13500,5780))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1711,12 +1711,12 @@ DISPNAME 0 Arial,8,U</a:FontList>
 <c:Model.Objects>
 <o:UMLObject Id="o37">
 <a:ObjectID>19D2A485-74A0-4AE8-8E54-6E1DC53BE6FD</a:ObjectID>
-<a:Name>Server</a:Name>
-<a:Code>Server</a:Code>
+<a:Name>System</a:Name>
+<a:Code>System</a:Code>
 <a:CreationDate>1381816889</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381816937</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
+<a:ModificationDate>1381905268</a:ModificationDate>
+<a:Modifier>Guillaume</a:Modifier>
 </o:UMLObject>
 </c:Model.Objects>
 <c:Messages>
@@ -1928,7 +1928,7 @@ DISPNAME 0 Arial,8,U</a:FontList>
 <a:Code>C++</a:Code>
 <a:CreationDate>1381816877</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381816877</a:ModificationDate>
+<a:ModificationDate>1381906452</a:ModificationDate>
 <a:Modifier>ansel</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/C++.xol</a:TargetModelURL>
 <a:TargetModelID>22FB523D-7E45-430F-8069-3A702CF3BE3C</a:TargetModelID>

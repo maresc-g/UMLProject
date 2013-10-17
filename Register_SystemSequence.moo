@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{9C184F4B-E59B-4B65-A571-00A865CC4195}" Label="" LastModificationDate="1381826368" Name="ModeleOrienteObjet_1" Objects="14" Symbols="13" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{9C184F4B-E59B-4B65-A571-00A865CC4195}" Label="" LastModificationDate="1381905255" Name="ModeleOrienteObjet_1" Objects="13" Symbols="11" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1383,7 +1383,7 @@ Shadow=0</a:DisplayPreferences>
 <o:MessageSymbol Id="o7">
 <a:CreationDate>1381826188</a:CreationDate>
 <a:ModificationDate>1381826188</a:ModificationDate>
-<a:Rect>((-11962,-1988), (1537,-442))</a:Rect>
+<a:Rect>((-11962,-1988), (1537,-456))</a:Rect>
 <a:ListOfPoints>((-11962,-1688),(1537,-1688))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1404,7 +1404,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o11">
 <a:CreationDate>1381826177</a:CreationDate>
 <a:ModificationDate>1381826177</a:ModificationDate>
-<a:Rect>((-11962,1912), (1537,3458))</a:Rect>
+<a:Rect>((-11962,1912), (1537,3444))</a:Rect>
 <a:ListOfPoints>((1537,2212),(-11962,2212))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1425,7 +1425,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o13">
 <a:CreationDate>1381826154</a:CreationDate>
 <a:ModificationDate>1381826154</a:ModificationDate>
-<a:Rect>((1537,4612), (14887,6158))</a:Rect>
+<a:Rect>((1537,4612), (14887,6144))</a:Rect>
 <a:ListOfPoints>((1537,4912),(14887,4912))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1446,7 +1446,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o16">
 <a:CreationDate>1381826081</a:CreationDate>
 <a:ModificationDate>1381826142</a:ModificationDate>
-<a:Rect>((-11962,6787), (1537,8333))</a:Rect>
+<a:Rect>((-11962,6787), (1537,8319))</a:Rect>
 <a:ListOfPoints>((-11962,7087),(1537,7087))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1570,12 +1570,12 @@ DISPNAME 0 Arial,8,U</a:FontList>
 <c:Model.Objects>
 <o:UMLObject Id="o23">
 <a:ObjectID>B828498D-ACBF-4684-9D00-F490F394E4E5</a:ObjectID>
-<a:Name>Server</a:Name>
-<a:Code>Server</a:Code>
+<a:Name>System</a:Name>
+<a:Code>System</a:Code>
 <a:CreationDate>1381826138</a:CreationDate>
 <a:Creator>Cyril</a:Creator>
-<a:ModificationDate>1381826146</a:ModificationDate>
-<a:Modifier>Cyril</a:Modifier>
+<a:ModificationDate>1381905255</a:ModificationDate>
+<a:Modifier>Guillaume</a:Modifier>
 </o:UMLObject>
 </c:Model.Objects>
 <c:Messages>

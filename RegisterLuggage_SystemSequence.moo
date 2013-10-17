@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{86ABF939-3A61-435E-97D0-FD1801A6F67D}" Label="" LastModificationDate="1381470596" Name="RegisterLuggage" Objects="28" Symbols="37" Target="C++" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{86ABF939-3A61-435E-97D0-FD1801A6F67D}" Label="" LastModificationDate="1381906446" Name="RegisterLuggage" Objects="20" Symbols="20" Target="C++" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1390,7 +1390,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o10">
 <a:CreationDate>1381468865</a:CreationDate>
 <a:ModificationDate>1381470586</a:ModificationDate>
-<a:Rect>((-1080,-9940), (5819,-7260))</a:Rect>
+<a:Rect>((-1080,-9940), (5820,-7260))</a:Rect>
 <a:ListOfPoints>((-1080,-7260),(2520,-7260),(2520,-9940),(-1080,-9940))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1537,9 +1537,9 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o25">
 <a:CreationDate>1381468444</a:CreationDate>
 <a:ModificationDate>1381470586</a:ModificationDate>
-<a:Rect>((-1080,7715), (18748,9172))</a:Rect>
+<a:Rect>((-1080,7640), (18748,9172))</a:Rect>
 <a:ListOfPoints>((-1080,7940),(18748,7940))</a:ListOfPoints>
-<a:ArrowStyle>1</a:ArrowStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>DISPNAME 0 Arial,8,N
@@ -1580,9 +1580,9 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o29">
 <a:CreationDate>1381468159</a:CreationDate>
 <a:ModificationDate>1381470586</a:ModificationDate>
-<a:Rect>((-19681,8534), (-1081,9991))</a:Rect>
+<a:Rect>((-19681,8459), (-1081,9991))</a:Rect>
 <a:ListOfPoints>((-19681,8759),(-1081,8759))</a:ListOfPoints>
-<a:ArrowStyle>1</a:ArrowStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>DISPNAME 0 Arial,8,N
@@ -1601,9 +1601,9 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o31">
 <a:CreationDate>1381468138</a:CreationDate>
 <a:ModificationDate>1381470586</a:ModificationDate>
-<a:Rect>((-19681,10095), (-1080,11552))</a:Rect>
+<a:Rect>((-19681,10020), (-1080,11552))</a:Rect>
 <a:ListOfPoints>((-1080,10320),(-19681,10320))</a:ListOfPoints>
-<a:ArrowStyle>1</a:ArrowStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>DISPNAME 0 Arial,8,N
@@ -1622,9 +1622,9 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o33">
 <a:CreationDate>1381468117</a:CreationDate>
 <a:ModificationDate>1381470586</a:ModificationDate>
-<a:Rect>((-19681,12025), (-1081,13482))</a:Rect>
+<a:Rect>((-19681,11950), (-1081,13482))</a:Rect>
 <a:ListOfPoints>((-19681,12250),(-1081,12250))</a:ListOfPoints>
-<a:ArrowStyle>1</a:ArrowStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>DISPNAME 0 Arial,8,N
@@ -1747,12 +1747,12 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <c:Model.Objects>
 <o:UMLObject Id="o36">
 <a:ObjectID>9B1CCCBA-F205-43A9-9DCC-A17DFE2A9AC1</a:ObjectID>
-<a:Name>Server</a:Name>
-<a:Code>Server</a:Code>
+<a:Name>System</a:Name>
+<a:Code>System</a:Code>
 <a:CreationDate>1381468430</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381468434</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
+<a:ModificationDate>1381905263</a:ModificationDate>
+<a:Modifier>Guillaume</a:Modifier>
 </o:UMLObject>
 </c:Model.Objects>
 <c:Messages>
@@ -1762,9 +1762,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>Hello</a:Code>
 <a:CreationDate>1381468117</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381470465</a:ModificationDate>
+<a:ModificationDate>1381906433</a:ModificationDate>
 <a:Modifier>ansel</a:Modifier>
-<a:ControlFlow>C</a:ControlFlow>
 <c:Object1>
 <o:Actor Ref="o40"/>
 </c:Object1>
@@ -1778,9 +1777,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>ShowMeTicket</a:Code>
 <a:CreationDate>1381468138</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381470503</a:ModificationDate>
+<a:ModificationDate>1381906438</a:ModificationDate>
 <a:Modifier>ansel</a:Modifier>
-<a:ControlFlow>C</a:ControlFlow>
 <c:Object1>
 <o:Actor Ref="o38"/>
 </c:Object1>
@@ -1794,9 +1792,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>Ticket</a:Code>
 <a:CreationDate>1381468159</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381470475</a:ModificationDate>
+<a:ModificationDate>1381906442</a:ModificationDate>
 <a:Modifier>ansel</a:Modifier>
-<a:ControlFlow>C</a:ControlFlow>
 <c:Object1>
 <o:Actor Ref="o40"/>
 </c:Object1>
@@ -1826,9 +1823,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>Surbooking</a:Code>
 <a:CreationDate>1381468444</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381470484</a:ModificationDate>
+<a:ModificationDate>1381906446</a:ModificationDate>
 <a:Modifier>ansel</a:Modifier>
-<a:ControlFlow>C</a:ControlFlow>
 <c:Object1>
 <o:UMLObject Ref="o36"/>
 </c:Object1>

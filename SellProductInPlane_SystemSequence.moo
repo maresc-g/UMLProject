@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{7C2D6F18-CE1A-4318-B6CE-6EF1DBF1CE60}" Label="" LastModificationDate="1381470738" Name="SellProductInPlane" Objects="21" Symbols="28" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{7C2D6F18-CE1A-4318-B6CE-6EF1DBF1CE60}" Label="" LastModificationDate="1381906487" Name="SellProductInPlane" Objects="19" Symbols="17" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1404,9 +1404,9 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o11">
 <a:CreationDate>1381385118</a:CreationDate>
 <a:ModificationDate>1381470730</a:ModificationDate>
-<a:Rect>((-12601,-4745), (21536,-3288))</a:Rect>
+<a:Rect>((-12601,-4820), (21536,-3288))</a:Rect>
 <a:ListOfPoints>((-12601,-4520),(21536,-4520))</a:ListOfPoints>
-<a:ArrowStyle>1</a:ArrowStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>DISPNAME 0 Arial,8,N
@@ -1467,9 +1467,9 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o18">
 <a:CreationDate>1381384728</a:CreationDate>
 <a:ModificationDate>1381470724</a:ModificationDate>
-<a:Rect>((-12601,-12527), (3237,-11070))</a:Rect>
+<a:Rect>((-12601,-12602), (3237,-11070))</a:Rect>
 <a:ListOfPoints>((3237,-12302),(-12601,-12302))</a:ListOfPoints>
-<a:ArrowStyle>1</a:ArrowStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>DISPNAME 0 Arial,8,N
@@ -1488,9 +1488,9 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o20">
 <a:CreationDate>1381384658</a:CreationDate>
 <a:ModificationDate>1381470731</a:ModificationDate>
-<a:Rect>((-12601,-1556), (3237,-99))</a:Rect>
+<a:Rect>((-12601,-1631), (3237,-99))</a:Rect>
 <a:ListOfPoints>((3237,-1331),(-12601,-1331))</a:ListOfPoints>
-<a:ArrowStyle>1</a:ArrowStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>DISPNAME 0 Arial,8,N
@@ -1509,9 +1509,9 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o22">
 <a:CreationDate>1381384573</a:CreationDate>
 <a:ModificationDate>1381470726</a:ModificationDate>
-<a:Rect>((-12601,-9615), (3237,-8158))</a:Rect>
+<a:Rect>((-12601,-9690), (3237,-8158))</a:Rect>
 <a:ListOfPoints>((-12601,-9390),(3237,-9390))</a:ListOfPoints>
-<a:ArrowStyle>1</a:ArrowStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>DISPNAME 0 Arial,8,N
@@ -1530,9 +1530,9 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o24">
 <a:CreationDate>1381384291</a:CreationDate>
 <a:ModificationDate>1381470733</a:ModificationDate>
-<a:Rect>((-12601,540), (3237,1997))</a:Rect>
+<a:Rect>((-12601,465), (3237,1997))</a:Rect>
 <a:ListOfPoints>((-12601,765),(3237,765))</a:ListOfPoints>
-<a:ArrowStyle>1</a:ArrowStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>DISPNAME 0 Arial,8,N
@@ -1572,9 +1572,9 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o28">
 <a:CreationDate>1381384117</a:CreationDate>
 <a:ModificationDate>1381470736</a:ModificationDate>
-<a:Rect>((-12601,4765), (3237,6222))</a:Rect>
+<a:Rect>((-12601,4690), (3237,6222))</a:Rect>
 <a:ListOfPoints>((-12601,4990),(3237,4990))</a:ListOfPoints>
-<a:ArrowStyle>1</a:ArrowStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>DISPNAME 0 Arial,8,N
@@ -1712,9 +1712,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>NeedYouProduct</a:Code>
 <a:CreationDate>1381384117</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381470660</a:ModificationDate>
+<a:ModificationDate>1381906465</a:ModificationDate>
 <a:Modifier>ansel</a:Modifier>
-<a:ControlFlow>C</a:ControlFlow>
 <c:Object1>
 <o:Actor Ref="o35"/>
 </c:Object1>
@@ -1743,9 +1742,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>WhatProduct</a:Code>
 <a:CreationDate>1381384291</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381470673</a:ModificationDate>
+<a:ModificationDate>1381906469</a:ModificationDate>
 <a:Modifier>ansel</a:Modifier>
-<a:ControlFlow>C</a:ControlFlow>
 <c:Object1>
 <o:Actor Ref="o35"/>
 </c:Object1>
@@ -1759,9 +1757,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>PriceProduct</a:Code>
 <a:CreationDate>1381384573</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381470693</a:ModificationDate>
+<a:ModificationDate>1381906483</a:ModificationDate>
 <a:Modifier>ansel</a:Modifier>
-<a:ControlFlow>C</a:ControlFlow>
 <c:Object1>
 <o:Actor Ref="o35"/>
 </c:Object1>
@@ -1775,9 +1772,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>Product</a:Code>
 <a:CreationDate>1381384658</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381470678</a:ModificationDate>
+<a:ModificationDate>1381906472</a:ModificationDate>
 <a:Modifier>ansel</a:Modifier>
-<a:ControlFlow>C</a:ControlFlow>
 <c:Object1>
 <o:Actor Ref="o33"/>
 </c:Object1>
@@ -1791,9 +1787,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>GiveMoney</a:Code>
 <a:CreationDate>1381384728</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381470698</a:ModificationDate>
+<a:ModificationDate>1381906487</a:ModificationDate>
 <a:Modifier>ansel</a:Modifier>
-<a:ControlFlow>C</a:ControlFlow>
 <c:Object1>
 <o:Actor Ref="o33"/>
 </c:Object1>
@@ -1837,9 +1832,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>StockProduct</a:Code>
 <a:CreationDate>1381385118</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381470683</a:ModificationDate>
+<a:ModificationDate>1381906478</a:ModificationDate>
 <a:Modifier>ansel</a:Modifier>
-<a:ControlFlow>C</a:ControlFlow>
 <c:Object1>
 <o:UMLObject Ref="o31"/>
 </c:Object1>
@@ -1870,7 +1864,7 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>Java</a:Code>
 <a:CreationDate>1381383938</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381403741</a:ModificationDate>
+<a:ModificationDate>1381906460</a:ModificationDate>
 <a:Modifier>ansel</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/java5-j2ee14.xol</a:TargetModelURL>
 <a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>
@@ -1885,7 +1879,7 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>WSDLJava</a:Code>
 <a:CreationDate>1381383938</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381403741</a:ModificationDate>
+<a:ModificationDate>1381906460</a:ModificationDate>
 <a:Modifier>ansel</a:Modifier>
 <a:TargetModelURL>file:///%_XEM%/WSDLJ2EE.xem</a:TargetModelURL>
 <a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>
