@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{C351727F-2D76-4758-A027-FB1AD1E22B51}" Label="" LastModificationDate="1382007512" Name="ModeleOrienteObjet_2" Objects="29" Symbols="39" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{C351727F-2D76-4758-A027-FB1AD1E22B51}" Label="" LastModificationDate="1382296182" Name="ModeleOrienteObjet_2" Objects="23" Symbols="26" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -981,12 +981,12 @@ NameToCode=No</a:ModelOptionsText>
 <c:SequenceDiagrams>
 <o:SequenceDiagram Id="o5">
 <a:ObjectID>79A5729E-77BA-46AC-8E86-5D69BB1F31F2</a:ObjectID>
-<a:Name>FreetimeFlight_SequenceObject</a:Name>
-<a:Code>FreetimeFlight_SequenceObject</a:Code>
+<a:Name>FreetimeFlight_ObjectSequence</a:Name>
+<a:Code>FreetimeFlight_ObjectSequence</a:Code>
 <a:CreationDate>1382000520</a:CreationDate>
 <a:Creator>Cyril</a:Creator>
-<a:ModificationDate>1382007496</a:ModificationDate>
-<a:Modifier>Cyril</a:Modifier>
+<a:ModificationDate>1382296182</a:ModificationDate>
+<a:Modifier>Alexis</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
 [DisplayPreferences\SQD]
