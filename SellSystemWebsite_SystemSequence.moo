@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{C6FE27E1-F037-49BC-8D36-02D735D1A265}" Label="" LastModificationDate="1381913110" Name="Diagramme de séquence UML_2" Objects="24" Symbols="24" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{C6FE27E1-F037-49BC-8D36-02D735D1A265}" Label="" LastModificationDate="1382332380" Name="Diagramme de séquence UML_2" Objects="21" Symbols="19" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1425,7 +1425,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o14">
 <a:CreationDate>1381836571</a:CreationDate>
 <a:ModificationDate>1381913070</a:ModificationDate>
-<a:Rect>((421,5287), (14699,6833))</a:Rect>
+<a:Rect>((421,5287), (14699,7321))</a:Rect>
 <a:ListOfPoints>((421,5587),(14699,5587))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1510,7 +1510,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <a:CreationDate>1381316686</a:CreationDate>
 <a:ModificationDate>1381913070</a:ModificationDate>
 <a:CenterTextOffset>(-60, 0)</a:CenterTextOffset>
-<a:Rect>((-15187,-16710), (421,-15164))</a:Rect>
+<a:Rect>((-15187,-16710), (421,-14676))</a:Rect>
 <a:ListOfPoints>((421,-16410),(-15187,-16410))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1952,8 +1952,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>WSDLJava</a:Code>
 <a:CreationDate>1381316121</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381905279</a:ModificationDate>
-<a:Modifier>Guillaume</a:Modifier>
+<a:ModificationDate>1382332380</a:ModificationDate>
+<a:Modifier>Alexis</a:Modifier>
 <a:TargetModelURL>file:///%_XEM%/WSDLJ2EE.xem</a:TargetModelURL>
 <a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>
 <a:TargetModelClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetModelClassID>

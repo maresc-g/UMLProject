@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{86ABF939-3A61-435E-97D0-FD1801A6F67D}" Label="" LastModificationDate="1382003312" Name="RegisterLuggage" Objects="32" Symbols="32" Target="C++" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{86ABF939-3A61-435E-97D0-FD1801A6F67D}" Label="" LastModificationDate="1382332016" Name="RegisterLuggage" Objects="16" Symbols="16" Target="C++" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1369,7 +1369,7 @@ Shadow=0</a:DisplayPreferences>
 <o:MessageSymbol Id="o6">
 <a:CreationDate>1382003171</a:CreationDate>
 <a:ModificationDate>1382003171</a:ModificationDate>
-<a:Rect>((-1080,-6180), (18748,-4648))</a:Rect>
+<a:Rect>((-1080,-6180), (18748,-4634))</a:Rect>
 <a:ListOfPoints>((-1080,-5880),(18748,-5880))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1390,7 +1390,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o10">
 <a:CreationDate>1382003045</a:CreationDate>
 <a:ModificationDate>1382003045</a:ModificationDate>
-<a:Rect>((-19681,-11640), (-1080,-10108))</a:Rect>
+<a:Rect>((-19681,-11640), (-1080,-10094))</a:Rect>
 <a:ListOfPoints>((-1080,-11340),(-19681,-11340))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1411,7 +1411,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o13">
 <a:CreationDate>1382002876</a:CreationDate>
 <a:ModificationDate>1382002876</a:ModificationDate>
-<a:Rect>((-19681,-8730), (-1080,-7198))</a:Rect>
+<a:Rect>((-19681,-8730), (-1080,-7184))</a:Rect>
 <a:ListOfPoints>((-1080,-8430),(-19681,-8430))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1432,7 +1432,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o15">
 <a:CreationDate>1382002872</a:CreationDate>
 <a:ModificationDate>1382003141</a:ModificationDate>
-<a:Rect>((-1080,-3030), (18748,-1498))</a:Rect>
+<a:Rect>((-1080,-3030), (18748,-1484))</a:Rect>
 <a:ListOfPoints>((18748,-2730),(-1080,-2730))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1453,7 +1453,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o17">
 <a:CreationDate>1382002869</a:CreationDate>
 <a:ModificationDate>1382003139</a:ModificationDate>
-<a:Rect>((-1080,-90), (18748,1442))</a:Rect>
+<a:Rect>((-1080,-90), (18748,1456))</a:Rect>
 <a:ListOfPoints>((-1080,210),(18748,210))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1474,7 +1474,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o19">
 <a:CreationDate>1382002862</a:CreationDate>
 <a:ModificationDate>1382003131</a:ModificationDate>
-<a:Rect>((-1080,5010), (18748,6542))</a:Rect>
+<a:Rect>((-1080,5010), (18748,6556))</a:Rect>
 <a:ListOfPoints>((18748,5310),(-1080,5310))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1496,7 +1496,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <a:CreationDate>1382002860</a:CreationDate>
 <a:ModificationDate>1382003281</a:ModificationDate>
 <a:CenterTextOffset>(400, 0)</a:CenterTextOffset>
-<a:Rect>((-1080,8730), (18748,10262))</a:Rect>
+<a:Rect>((-1080,8730), (18748,10276))</a:Rect>
 <a:ListOfPoints>((-1080,9030),(18748,9030))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1517,7 +1517,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o23">
 <a:CreationDate>1382002852</a:CreationDate>
 <a:ModificationDate>1382003132</a:ModificationDate>
-<a:Rect>((-19681,2190), (-1080,3722))</a:Rect>
+<a:Rect>((-19681,2190), (-1080,3736))</a:Rect>
 <a:ListOfPoints>((-19681,2490),(-1080,2490))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1538,7 +1538,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o25">
 <a:CreationDate>1382002846</a:CreationDate>
 <a:ModificationDate>1382002976</a:ModificationDate>
-<a:Rect>((-19681,10350), (-1080,11882))</a:Rect>
+<a:Rect>((-19681,10350), (-1080,11896))</a:Rect>
 <a:ListOfPoints>((-19681,10650),(-1080,10650))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1815,8 +1815,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>C++</a:Code>
 <a:CreationDate>1381467877</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381467877</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
+<a:ModificationDate>1382332016</a:ModificationDate>
+<a:Modifier>Alexis</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/C++.xol</a:TargetModelURL>
 <a:TargetModelID>22FB523D-7E45-430F-8069-3A702CF3BE3C</a:TargetModelID>
 <a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>

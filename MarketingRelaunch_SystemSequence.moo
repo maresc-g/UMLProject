@@ -1369,7 +1369,7 @@ Shadow=0</a:DisplayPreferences>
 <o:MessageSymbol Id="o6">
 <a:CreationDate>1381991480</a:CreationDate>
 <a:ModificationDate>1381991756</a:ModificationDate>
-<a:Rect>((-2296,1920), (9824,3452))</a:Rect>
+<a:Rect>((-2348,1920), (9876,3466))</a:Rect>
 <a:ListOfPoints>((-2220,2220),(9749,2220))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1411,7 +1411,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o12">
 <a:CreationDate>1381991307</a:CreationDate>
 <a:ModificationDate>1381991637</a:ModificationDate>
-<a:Rect>((-13500,12420), (-2220,13952))</a:Rect>
+<a:Rect>((-13500,12420), (-2220,13966))</a:Rect>
 <a:ListOfPoints>((-13500,12720),(-2220,12720))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>

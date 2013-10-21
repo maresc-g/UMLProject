@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{7A29EC80-5B01-4C71-B8D4-C4B3948631E2}" Label="" LastModificationDate="1382016055" Name="ModeleOrienteObjet_1" Objects="31" Symbols="52" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{7A29EC80-5B01-4C71-B8D4-C4B3948631E2}" Label="" LastModificationDate="1382332002" Name="ModeleOrienteObjet_1" Objects="27" Symbols="35" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -2258,8 +2258,8 @@ DISPNAME 0 Arial,8,U</a:FontList>
 <a:Code>Java</a:Code>
 <a:CreationDate>1382012272</a:CreationDate>
 <a:Creator>Cyril</a:Creator>
-<a:ModificationDate>1382012272</a:ModificationDate>
-<a:Modifier>Cyril</a:Modifier>
+<a:ModificationDate>1382332002</a:ModificationDate>
+<a:Modifier>Alexis</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/java5-j2ee14.xol</a:TargetModelURL>
 <a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>
 <a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
@@ -2273,8 +2273,8 @@ DISPNAME 0 Arial,8,U</a:FontList>
 <a:Code>WSDLJava</a:Code>
 <a:CreationDate>1382012272</a:CreationDate>
 <a:Creator>Cyril</a:Creator>
-<a:ModificationDate>1382012272</a:ModificationDate>
-<a:Modifier>Cyril</a:Modifier>
+<a:ModificationDate>1382332002</a:ModificationDate>
+<a:Modifier>Alexis</a:Modifier>
 <a:TargetModelURL>file:///%_XEM%/WSDLJ2EE.xem</a:TargetModelURL>
 <a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>
 <a:TargetModelClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetModelClassID>
