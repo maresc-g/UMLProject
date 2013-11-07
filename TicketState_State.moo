@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{8B394598-EFB4-4B8F-A8B9-A116FACAA4A5}" Label="" LastModificationDate="1381914422" Name="ModeleOrienteObjet_1" Objects="22" Symbols="16" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{8B394598-EFB4-4B8F-A8B9-A116FACAA4A5}" Label="" LastModificationDate="1383812227" Name="TicketState" Objects="20" Symbols="15" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -8,12 +8,12 @@
 <c:Children>
 <o:Model Id="o2">
 <a:ObjectID>8B394598-EFB4-4B8F-A8B9-A116FACAA4A5</a:ObjectID>
-<a:Name>ModeleOrienteObjet_1</a:Name>
-<a:Code>ModeleOrienteObjet_1</a:Code>
+<a:Name>TicketState</a:Name>
+<a:Code>TicketState</a:Code>
 <a:CreationDate>1381913832</a:CreationDate>
 <a:Creator>Cyril</a:Creator>
-<a:ModificationDate>1381914389</a:ModificationDate>
-<a:Modifier>Cyril</a:Modifier>
+<a:ModificationDate>1383812227</a:ModificationDate>
+<a:Modifier>Guillaume</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
 [FolderOptions\Class Diagram Objects]
@@ -985,8 +985,8 @@ NameToCode=No</a:ModelOptionsText>
 <a:Code>DiagrammeEtatsTransitions_1</a:Code>
 <a:CreationDate>1381913832</a:CreationDate>
 <a:Creator>Cyril</a:Creator>
-<a:ModificationDate>1381914389</a:ModificationDate>
-<a:Modifier>Cyril</a:Modifier>
+<a:ModificationDate>1383812204</a:ModificationDate>
+<a:Modifier>Guillaume</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
 [DisplayPreferences\STD]
@@ -1361,11 +1361,22 @@ Shadow=0</a:DisplayPreferences>
 <a:PageOrientation>1</a:PageOrientation>
 <a:PaperSource>15</a:PaperSource>
 <c:Symbols>
-<o:TransitionSymbol Id="o6">
+<o:TitleSymbol Id="o6">
+<a:Text>Version: </a:Text>
+<a:CreationDate>1383812204</a:CreationDate>
+<a:ModificationDate>1383812208</a:ModificationDate>
+<a:Rect>((-7889,29251), (7830,35910))</a:Rect>
+<a:TextStyle>4130</a:TextStyle>
+<a:LineColor>16711680</a:LineColor>
+<a:FillColor>16777215</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontName>Arial,8,N</a:FontName>
+</o:TitleSymbol>
+<o:TransitionSymbol Id="o7">
 <a:CreationDate>1381914106</a:CreationDate>
-<a:ModificationDate>1381914351</a:ModificationDate>
-<a:Rect>((-11812,-3654), (4013,-2254))</a:Rect>
-<a:ListOfPoints>((-11812,-3429),(4013,-3429))</a:ListOfPoints>
+<a:ModificationDate>1383812217</a:ModificationDate>
+<a:Rect>((-9112,18846), (6713,20231))</a:Rect>
+<a:ListOfPoints>((-9112,19071),(6713,19071))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1373,20 +1384,20 @@ Shadow=0</a:DisplayPreferences>
 <a:FontList>SOURCE 0 Arial,8,N
 DESTINATION 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:StateSymbol Ref="o7"/>
+<o:StateSymbol Ref="o8"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:StateSymbol Ref="o8"/>
+<o:StateSymbol Ref="o9"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Transition Ref="o9"/>
+<o:Transition Ref="o10"/>
 </c:Object>
 </o:TransitionSymbol>
-<o:TransitionSymbol Id="o10">
+<o:TransitionSymbol Id="o11">
 <a:CreationDate>1381914110</a:CreationDate>
-<a:ModificationDate>1381914351</a:ModificationDate>
-<a:Rect>((-12487,-3107), (5063,-1530))</a:Rect>
-<a:ListOfPoints>((5063,-1934),(-3600,-1934),(-3600,-1577),(-12487,-1577))</a:ListOfPoints>
+<a:ModificationDate>1383812217</a:ModificationDate>
+<a:Rect>((-9787,19406), (7763,20970))</a:Rect>
+<a:ListOfPoints>((7763,20566),(-900,20566),(-900,20923),(-9787,20923))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1394,20 +1405,20 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <a:FontList>SOURCE 0 Arial,8,N
 DESTINATION 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:StateSymbol Ref="o8"/>
+<o:StateSymbol Ref="o9"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:StateSymbol Ref="o7"/>
+<o:StateSymbol Ref="o8"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Transition Ref="o11"/>
+<o:Transition Ref="o12"/>
 </c:Object>
 </o:TransitionSymbol>
-<o:TransitionSymbol Id="o12">
+<o:TransitionSymbol Id="o13">
 <a:CreationDate>1381914142</a:CreationDate>
-<a:ModificationDate>1381914351</a:ModificationDate>
-<a:Rect>((-18037,-2051), (-15787,2233))</a:Rect>
-<a:ListOfPoints>((-18037,2233),(-15787,2233),(-15787,-2051))</a:ListOfPoints>
+<a:ModificationDate>1383812217</a:ModificationDate>
+<a:Rect>((-15337,20449), (-13087,24733))</a:Rect>
+<a:ListOfPoints>((-15337,24733),(-13087,24733),(-13087,20449))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1415,62 +1426,20 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <a:FontList>SOURCE 0 Arial,8,N
 DESTINATION 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:StartSymbol Ref="o13"/>
+<o:StartSymbol Ref="o14"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:StateSymbol Ref="o7"/>
+<o:StateSymbol Ref="o8"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Transition Ref="o14"/>
+<o:Transition Ref="o15"/>
 </c:Object>
 </o:TransitionSymbol>
-<o:TransitionSymbol Id="o15">
+<o:TransitionSymbol Id="o16">
 <a:CreationDate>1381914271</a:CreationDate>
-<a:ModificationDate>1381914351</a:ModificationDate>
-<a:Rect>((-13312,-13891), (-6037,-4571))</a:Rect>
-<a:ListOfPoints>((-13312,-4571),(-13312,-13891),(-6037,-13891))</a:ListOfPoints>
-<a:CornerStyle>1</a:CornerStyle>
-<a:ArrowStyle>1</a:ArrowStyle>
-<a:LineColor>16744448</a:LineColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>SOURCE 0 Arial,8,N
-DESTINATION 0 Arial,8,N</a:FontList>
-<c:SourceSymbol>
-<o:StateSymbol Ref="o7"/>
-</c:SourceSymbol>
-<c:DestinationSymbol>
-<o:StateSymbol Ref="o16"/>
-</c:DestinationSymbol>
-<c:Object>
-<o:Transition Ref="o17"/>
-</c:Object>
-</o:TransitionSymbol>
-<o:TransitionSymbol Id="o18">
-<a:CreationDate>1381914276</a:CreationDate>
-<a:ModificationDate>1381914276</a:ModificationDate>
-<a:Rect>((-1987,-22216), (2753,-14742))</a:Rect>
-<a:ListOfPoints>((-1987,-15916),(1613,-15916),(1613,-22216))</a:ListOfPoints>
-<a:CornerStyle>1</a:CornerStyle>
-<a:ArrowStyle>1</a:ArrowStyle>
-<a:LineColor>16744448</a:LineColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>SOURCE 0 Arial,8,N
-DESTINATION 0 Arial,8,N</a:FontList>
-<c:SourceSymbol>
-<o:StateSymbol Ref="o16"/>
-</c:SourceSymbol>
-<c:DestinationSymbol>
-<o:StateSymbol Ref="o19"/>
-</c:DestinationSymbol>
-<c:Object>
-<o:Transition Ref="o20"/>
-</c:Object>
-</o:TransitionSymbol>
-<o:TransitionSymbol Id="o21">
-<a:CreationDate>1381914280</a:CreationDate>
-<a:ModificationDate>1381914345</a:ModificationDate>
-<a:Rect>((-3187,-13891), (4538,-4719))</a:Rect>
-<a:ListOfPoints>((4538,-4720),(-3187,-4720),(-3187,-13891))</a:ListOfPoints>
+<a:ModificationDate>1383812217</a:ModificationDate>
+<a:Rect>((-10612,8609), (-3337,17929))</a:Rect>
+<a:ListOfPoints>((-10612,17929),(-10612,8609),(-3337,8609))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1481,17 +1450,59 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <o:StateSymbol Ref="o8"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:StateSymbol Ref="o16"/>
+<o:StateSymbol Ref="o17"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Transition Ref="o22"/>
+<o:Transition Ref="o18"/>
 </c:Object>
 </o:TransitionSymbol>
-<o:TransitionSymbol Id="o23">
+<o:TransitionSymbol Id="o19">
+<a:CreationDate>1381914276</a:CreationDate>
+<a:ModificationDate>1383812217</a:ModificationDate>
+<a:Rect>((713,284), (5611,7744))</a:Rect>
+<a:ListOfPoints>((713,6584),(4313,6584),(4313,284))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>16744448</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:StateSymbol Ref="o17"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:StateSymbol Ref="o20"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Transition Ref="o21"/>
+</c:Object>
+</o:TransitionSymbol>
+<o:TransitionSymbol Id="o22">
+<a:CreationDate>1381914280</a:CreationDate>
+<a:ModificationDate>1383812217</a:ModificationDate>
+<a:Rect>((-487,8609), (7238,17780))</a:Rect>
+<a:ListOfPoints>((7238,17780),(-487,17780),(-487,8609))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>16744448</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:StateSymbol Ref="o9"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:StateSymbol Ref="o17"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Transition Ref="o23"/>
+</c:Object>
+</o:TransitionSymbol>
+<o:TransitionSymbol Id="o24">
 <a:CreationDate>1381914371</a:CreationDate>
-<a:ModificationDate>1381914371</a:ModificationDate>
-<a:Rect>((-16162,-17090), (-7387,-3841))</a:Rect>
-<a:ListOfPoints>((-7387,-15916),(-16162,-15916),(-16162,-3841))</a:ListOfPoints>
+<a:ModificationDate>1383812217</a:ModificationDate>
+<a:Rect>((-13462,5424), (-4687,18659))</a:Rect>
+<a:ListOfPoints>((-4687,6584),(-13462,6584),(-13462,18659))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1499,20 +1510,20 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <a:FontList>SOURCE 0 Arial,8,N
 DESTINATION 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:StateSymbol Ref="o16"/>
+<o:StateSymbol Ref="o17"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:StateSymbol Ref="o7"/>
+<o:StateSymbol Ref="o8"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Transition Ref="o24"/>
+<o:Transition Ref="o25"/>
 </c:Object>
 </o:TransitionSymbol>
-<o:TransitionSymbol Id="o25">
+<o:TransitionSymbol Id="o26">
 <a:CreationDate>1381914389</a:CreationDate>
-<a:ModificationDate>1381914389</a:ModificationDate>
-<a:Rect>((5738,-23420), (13087,-22924))</a:Rect>
-<a:ListOfPoints>((5738,-23003),(13087,-23341))</a:ListOfPoints>
+<a:ModificationDate>1383812217</a:ModificationDate>
+<a:Rect>((8438,-920), (15787,-424))</a:Rect>
+<a:ListOfPoints>((8438,-503),(15787,-841))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1520,20 +1531,20 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <a:FontList>SOURCE 0 Arial,8,N
 DESTINATION 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:StateSymbol Ref="o19"/>
+<o:StateSymbol Ref="o20"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:EndSymbol Ref="o26"/>
+<o:EndSymbol Ref="o27"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Transition Ref="o27"/>
+<o:Transition Ref="o28"/>
 </c:Object>
 </o:TransitionSymbol>
-<o:StartSymbol Id="o13">
+<o:StartSymbol Id="o14">
 <a:CreationDate>1381913852</a:CreationDate>
-<a:ModificationDate>1381913852</a:ModificationDate>
+<a:ModificationDate>1383812217</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-18637,1634), (-17438,2833))</a:Rect>
+<a:Rect>((-15937,24134), (-14738,25333))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>12615680</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1546,14 +1557,14 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:KeepCenter>1</a:KeepCenter>
 <a:KeepSize>1</a:KeepSize>
 <c:Object>
-<o:Start Ref="o28"/>
+<o:Start Ref="o29"/>
 </c:Object>
 </o:StartSymbol>
-<o:EndSymbol Id="o26">
+<o:EndSymbol Id="o27">
 <a:CreationDate>1381913862</a:CreationDate>
-<a:ModificationDate>1381913862</a:ModificationDate>
+<a:ModificationDate>1383812217</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((12338,-24091), (13837,-22592))</a:Rect>
+<a:Rect>((15038,-1591), (16537,-92))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>12615680</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1566,35 +1577,14 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:KeepCenter>1</a:KeepCenter>
 <a:KeepSize>1</a:KeepSize>
 <c:Object>
-<o:End Ref="o29"/>
+<o:End Ref="o30"/>
 </c:Object>
 </o:EndSymbol>
-<o:StateSymbol Id="o7">
-<a:CreationDate>1381914087</a:CreationDate>
-<a:ModificationDate>1381914351</a:ModificationDate>
-<a:IconMode>-1</a:IconMode>
-<a:Rect>((-16987,-4642), (-10988,-1142))</a:Rect>
-<a:AutoAdjustToText>0</a:AutoAdjustToText>
-<a:LineColor>12615680</a:LineColor>
-<a:FillColor>16777152</a:FillColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>STRN 0 Arial,8,N
-DISPNAME2 0 Arial,8,N
-Actions 0 Arial,8,N
-LABL 0 Arial,8,N</a:FontList>
-<a:BrushStyle>6</a:BrushStyle>
-<a:GradientFillMode>65</a:GradientFillMode>
-<a:GradientEndColor>16777215</a:GradientEndColor>
-<a:ManuallyResized>1</a:ManuallyResized>
-<c:Object>
-<o:State Ref="o30"/>
-</c:Object>
-</o:StateSymbol>
 <o:StateSymbol Id="o8">
-<a:CreationDate>1381914089</a:CreationDate>
-<a:ModificationDate>1381914345</a:ModificationDate>
+<a:CreationDate>1381914087</a:CreationDate>
+<a:ModificationDate>1383812217</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((3788,-5392), (9788,-1442))</a:Rect>
+<a:Rect>((-14287,17858), (-8288,21358))</a:Rect>
 <a:AutoAdjustToText>0</a:AutoAdjustToText>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16777152</a:FillColor>
@@ -1611,11 +1601,12 @@ LABL 0 Arial,8,N</a:FontList>
 <o:State Ref="o31"/>
 </c:Object>
 </o:StateSymbol>
-<o:StateSymbol Id="o16">
+<o:StateSymbol Id="o9">
 <a:CreationDate>1381914089</a:CreationDate>
-<a:ModificationDate>1381914253</a:ModificationDate>
+<a:ModificationDate>1383812217</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-7687,-16116), (-1688,-13617))</a:Rect>
+<a:Rect>((6488,17108), (12488,21058))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16777152</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1626,15 +1617,16 @@ LABL 0 Arial,8,N</a:FontList>
 <a:BrushStyle>6</a:BrushStyle>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
 <c:Object>
 <o:State Ref="o32"/>
 </c:Object>
 </o:StateSymbol>
-<o:StateSymbol Id="o19">
-<a:CreationDate>1381914090</a:CreationDate>
-<a:ModificationDate>1381914262</a:ModificationDate>
+<o:StateSymbol Id="o17">
+<a:CreationDate>1381914089</a:CreationDate>
+<a:ModificationDate>1383812217</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((263,-23616), (6262,-21117))</a:Rect>
+<a:Rect>((-4987,6384), (1012,8883))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16777152</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1649,11 +1641,30 @@ LABL 0 Arial,8,N</a:FontList>
 <o:State Ref="o33"/>
 </c:Object>
 </o:StateSymbol>
+<o:StateSymbol Id="o20">
+<a:CreationDate>1381914090</a:CreationDate>
+<a:ModificationDate>1383812217</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((2963,-1116), (8962,1383))</a:Rect>
+<a:LineColor>12615680</a:LineColor>
+<a:FillColor>16777152</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME2 0 Arial,8,N
+Actions 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:State Ref="o34"/>
+</c:Object>
+</o:StateSymbol>
 </c:Symbols>
 </o:StatechartDiagram>
 </c:StatechartDiagrams>
 <c:Transitions>
-<o:Transition Id="o9">
+<o:Transition Id="o10">
 <a:ObjectID>71911CE3-91BF-4086-B203-86B0C7FB1987</a:ObjectID>
 <a:CreationDate>1381914106</a:CreationDate>
 <a:Creator>Cyril</a:Creator>
@@ -1661,13 +1672,13 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Cyril</a:Modifier>
 <a:FlowType>Reserver</a:FlowType>
 <c:Object1>
-<o:State Ref="o31"/>
+<o:State Ref="o32"/>
 </c:Object1>
 <c:Object2>
-<o:State Ref="o30"/>
+<o:State Ref="o31"/>
 </c:Object2>
 </o:Transition>
-<o:Transition Id="o11">
+<o:Transition Id="o12">
 <a:ObjectID>18247D52-BF11-4A29-A3EC-2983D9646479</a:ObjectID>
 <a:CreationDate>1381914110</a:CreationDate>
 <a:Creator>Cyril</a:Creator>
@@ -1675,26 +1686,26 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Cyril</a:Modifier>
 <a:FlowType>Annuler</a:FlowType>
 <c:Object1>
-<o:State Ref="o30"/>
+<o:State Ref="o31"/>
 </c:Object1>
 <c:Object2>
-<o:State Ref="o31"/>
+<o:State Ref="o32"/>
 </c:Object2>
 </o:Transition>
-<o:Transition Id="o14">
+<o:Transition Id="o15">
 <a:ObjectID>65E17266-92A8-4870-8268-4B2D09AFCAC4</a:ObjectID>
 <a:CreationDate>1381914142</a:CreationDate>
 <a:Creator>Cyril</a:Creator>
 <a:ModificationDate>1381914142</a:ModificationDate>
 <a:Modifier>Cyril</a:Modifier>
 <c:Object1>
-<o:State Ref="o30"/>
+<o:State Ref="o31"/>
 </c:Object1>
 <c:Object2>
-<o:Start Ref="o28"/>
+<o:Start Ref="o29"/>
 </c:Object2>
 </o:Transition>
-<o:Transition Id="o17">
+<o:Transition Id="o18">
 <a:ObjectID>19B077C8-523F-4F47-AFE1-87625A5BD002</a:ObjectID>
 <a:CreationDate>1381914271</a:CreationDate>
 <a:Creator>Cyril</a:Creator>
@@ -1702,13 +1713,13 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Cyril</a:Modifier>
 <a:FlowType>Achat</a:FlowType>
 <c:Object1>
-<o:State Ref="o32"/>
+<o:State Ref="o33"/>
 </c:Object1>
 <c:Object2>
-<o:State Ref="o30"/>
+<o:State Ref="o31"/>
 </c:Object2>
 </o:Transition>
-<o:Transition Id="o20">
+<o:Transition Id="o21">
 <a:ObjectID>09BC3FA0-9492-4583-9930-E3F077547394</a:ObjectID>
 <a:CreationDate>1381914276</a:CreationDate>
 <a:Creator>Cyril</a:Creator>
@@ -1716,13 +1727,13 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Cyril</a:Modifier>
 <a:FlowType>Utilisé</a:FlowType>
 <c:Object1>
-<o:State Ref="o33"/>
+<o:State Ref="o34"/>
 </c:Object1>
 <c:Object2>
-<o:State Ref="o32"/>
+<o:State Ref="o33"/>
 </c:Object2>
 </o:Transition>
-<o:Transition Id="o22">
+<o:Transition Id="o23">
 <a:ObjectID>4630EDEF-DEF2-42B1-974D-0CC75D251C33</a:ObjectID>
 <a:CreationDate>1381914280</a:CreationDate>
 <a:Creator>Cyril</a:Creator>
@@ -1730,13 +1741,13 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Cyril</a:Modifier>
 <a:FlowType>Valider</a:FlowType>
 <c:Object1>
-<o:State Ref="o32"/>
+<o:State Ref="o33"/>
 </c:Object1>
 <c:Object2>
-<o:State Ref="o31"/>
+<o:State Ref="o32"/>
 </c:Object2>
 </o:Transition>
-<o:Transition Id="o24">
+<o:Transition Id="o25">
 <a:ObjectID>AA680223-8C36-451D-98DE-5421B9D7D956</a:ObjectID>
 <a:CreationDate>1381914371</a:CreationDate>
 <a:Creator>Cyril</a:Creator>
@@ -1744,28 +1755,28 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Cyril</a:Modifier>
 <a:FlowType>Annuler</a:FlowType>
 <c:Object1>
-<o:State Ref="o30"/>
+<o:State Ref="o31"/>
 </c:Object1>
 <c:Object2>
-<o:State Ref="o32"/>
+<o:State Ref="o33"/>
 </c:Object2>
 </o:Transition>
-<o:Transition Id="o27">
+<o:Transition Id="o28">
 <a:ObjectID>E05764E7-EE5F-428C-8F63-D9530D13D358</a:ObjectID>
 <a:CreationDate>1381914389</a:CreationDate>
 <a:Creator>Cyril</a:Creator>
 <a:ModificationDate>1381914389</a:ModificationDate>
 <a:Modifier>Cyril</a:Modifier>
 <c:Object1>
-<o:End Ref="o29"/>
+<o:End Ref="o30"/>
 </c:Object1>
 <c:Object2>
-<o:State Ref="o33"/>
+<o:State Ref="o34"/>
 </c:Object2>
 </o:Transition>
 </c:Transitions>
 <c:Starts>
-<o:Start Id="o28">
+<o:Start Id="o29">
 <a:ObjectID>1077513E-7290-4270-947E-D60FDA3CD469</a:ObjectID>
 <a:Name>Debut_1</a:Name>
 <a:Code>Debut_1</a:Code>
@@ -1776,7 +1787,7 @@ LABL 0 Arial,8,N</a:FontList>
 </o:Start>
 </c:Starts>
 <c:Ends>
-<o:End Id="o29">
+<o:End Id="o30">
 <a:ObjectID>33E56891-F7D4-4647-ABD7-1592C74464A9</a:ObjectID>
 <a:Name>Fin_1</a:Name>
 <a:Code>Fin_1</a:Code>
@@ -1787,7 +1798,7 @@ LABL 0 Arial,8,N</a:FontList>
 </o:End>
 </c:Ends>
 <c:States>
-<o:State Id="o30">
+<o:State Id="o31">
 <a:ObjectID>AE8AD4C6-7BA7-4D20-8E36-B3DF4B0BBC6B</a:ObjectID>
 <a:Name>Libre</a:Name>
 <a:Code>Libre</a:Code>
@@ -1796,7 +1807,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1381914377</a:ModificationDate>
 <a:Modifier>Cyril</a:Modifier>
 </o:State>
-<o:State Id="o31">
+<o:State Id="o32">
 <a:ObjectID>79DF8BB8-BA7A-4204-8E0B-3DB030F8629A</a:ObjectID>
 <a:Name>Reservé</a:Name>
 <a:Code>Reserve</a:Code>
@@ -1805,7 +1816,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1381914362</a:ModificationDate>
 <a:Modifier>Cyril</a:Modifier>
 </o:State>
-<o:State Id="o32">
+<o:State Id="o33">
 <a:ObjectID>8CC3DABC-F955-4297-9E7C-2BDB439FBB61</a:ObjectID>
 <a:Name>Validé</a:Name>
 <a:Code>Valide</a:Code>
@@ -1814,7 +1825,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1381914422</a:ModificationDate>
 <a:Modifier>Cyril</a:Modifier>
 </o:State>
-<o:State Id="o33">
+<o:State Id="o34">
 <a:ObjectID>A37AD2E3-CECF-4329-BC6C-E615C0D36137</a:ObjectID>
 <a:Name>Utilisé</a:Name>
 <a:Code>Utilise</a:Code>
@@ -1825,7 +1836,7 @@ LABL 0 Arial,8,N</a:FontList>
 </o:State>
 </c:States>
 <c:TargetModels>
-<o:TargetModel Id="o34">
+<o:TargetModel Id="o35">
 <a:ObjectID>8F508263-8481-4F62-83CC-6F596B1BD502</a:ObjectID>
 <a:Name>Java</a:Name>
 <a:Code>Java</a:Code>
@@ -1840,7 +1851,7 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Shortcut Ref="o3"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o35">
+<o:TargetModel Id="o36">
 <a:ObjectID>84D84270-AD73-4C07-87CA-33C1A55EC171</a:ObjectID>
 <a:Name>WSDL for Java</a:Name>
 <a:Code>WSDLJava</a:Code>
