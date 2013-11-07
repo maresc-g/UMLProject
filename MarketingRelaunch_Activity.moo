@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{5A8FA764-9CB5-4F70-B88E-05E0CF0E7CF7}" Label="" LastModificationDate="1382331971" Name="MarketingRelaunch_Activity" Objects="24" Symbols="25" Target="C++" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{5A8FA764-9CB5-4F70-B88E-05E0CF0E7CF7}" Label="" LastModificationDate="1383813443" Name="MarketingRelaunch_Activity" Objects="24" Symbols="26" Target="C++" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1199,8 +1199,8 @@ NameToCode=No</a:ModelOptionsText>
 <a:Code>MarketingRelaunch_Activity</a:Code>
 <a:CreationDate>1381833116</a:CreationDate>
 <a:Creator>Alexis</a:Creator>
-<a:ModificationDate>1382331971</a:ModificationDate>
-<a:Modifier>Alexis</a:Modifier>
+<a:ModificationDate>1383813443</a:ModificationDate>
+<a:Modifier>ansel</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
 [DisplayPreferences\ACD]
@@ -1687,22 +1687,17 @@ Shadow=0</a:DisplayPreferences>
 <a:PageOrientation>1</a:PageOrientation>
 <a:PaperSource>15</a:PaperSource>
 <c:Symbols>
-<o:TextSymbol Id="o25">
-<a:Text>{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1036{\fonttbl{\f0\fnil Times New Roman;}{\f1\fnil\fcharset0 Times New Roman;}}
-{\*\generator Riched20 6.3.9600}\viewkind4\uc1 
-\pard\qc\f0\fs32 Send marketing relaunch\f1\fs20\par
-}
-</a:Text>
-<a:CreationDate>1382331877</a:CreationDate>
-<a:ModificationDate>1382331954</a:ModificationDate>
-<a:Rect>((-14087,34500), (13063,31725))</a:Rect>
+<o:TitleSymbol Id="o25">
+<a:Text>Version: </a:Text>
+<a:CreationDate>1383813443</a:CreationDate>
+<a:ModificationDate>1383813443</a:ModificationDate>
+<a:Rect>((-7559,30931), (7320,37590))</a:Rect>
 <a:TextStyle>4130</a:TextStyle>
-<a:LineColor>0</a:LineColor>
-<a:DashStyle>7</a:DashStyle>
-<a:FillColor>0</a:FillColor>
+<a:LineColor>16711680</a:LineColor>
+<a:FillColor>16777215</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontName>Arial,8,N</a:FontName>
-</o:TextSymbol>
+</o:TitleSymbol>
 <o:FlowSymbol Id="o26">
 <a:CreationDate>1381834214</a:CreationDate>
 <a:ModificationDate>1382331858</a:ModificationDate>

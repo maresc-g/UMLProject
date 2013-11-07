@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{7CD168E6-3942-42DD-AB92-1FB7F9EA5F88}" Label="" LastModificationDate="1382332244" Name="Diagramme de séquence UML_1" Objects="14" Symbols="15" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{7CD168E6-3942-42DD-AB92-1FB7F9EA5F88}" Label="" LastModificationDate="1383812648" Name="Diagramme de séquence UML_1" Objects="14" Symbols="15" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -967,12 +967,12 @@ NameToCode=No</a:ModelOptionsText>
 <c:SequenceDiagrams>
 <o:SequenceDiagram Id="o4">
 <a:ObjectID>F24D63BC-FC8C-419C-A7B7-BAD4867FB97A</a:ObjectID>
-<a:Name>SellProductInPlane</a:Name>
-<a:Code>SellProductInPlane</a:Code>
+<a:Name>SellProductInPlane_ObjectSequence</a:Name>
+<a:Code>SellProductInPlane_ObjectSequence</a:Code>
 <a:CreationDate>1382000924</a:CreationDate>
 <a:Creator>Guillaume</a:Creator>
-<a:ModificationDate>1382004257</a:ModificationDate>
-<a:Modifier>Guillaume</a:Modifier>
+<a:ModificationDate>1383812648</a:ModificationDate>
+<a:Modifier>ansel</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
 [DisplayPreferences\SQD]
@@ -1369,7 +1369,7 @@ Shadow=0</a:DisplayPreferences>
 <o:MessageSymbol Id="o6">
 <a:CreationDate>1382004229</a:CreationDate>
 <a:ModificationDate>1382004229</a:ModificationDate>
-<a:Rect>((-20641,11750), (-6602,13221))</a:Rect>
+<a:Rect>((-20641,11750), (-6602,13207))</a:Rect>
 <a:ListOfPoints>((-20641,11975),(-6602,11975))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1390,7 +1390,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o10">
 <a:CreationDate>1382004227</a:CreationDate>
 <a:ModificationDate>1382004227</a:ModificationDate>
-<a:Rect>((-20641,13910), (-6602,15381))</a:Rect>
+<a:Rect>((-20641,13910), (-6602,15367))</a:Rect>
 <a:ListOfPoints>((-6602,14135),(-20641,14135))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1411,7 +1411,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o12">
 <a:CreationDate>1382004222</a:CreationDate>
 <a:ModificationDate>1382004222</a:ModificationDate>
-<a:Rect>((-20641,16430), (-6602,17901))</a:Rect>
+<a:Rect>((-20641,16430), (-6602,17887))</a:Rect>
 <a:ListOfPoints>((-20641,16655),(-6602,16655))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1432,7 +1432,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o14">
 <a:CreationDate>1382004177</a:CreationDate>
 <a:ModificationDate>1382004177</a:ModificationDate>
-<a:Rect>((-20641,18635), (11285,20181))</a:Rect>
+<a:Rect>((-20641,18635), (11285,20167))</a:Rect>
 <a:ListOfPoints>((11285,18935),(-20641,18935))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1454,7 +1454,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o17">
 <a:CreationDate>1382004173</a:CreationDate>
 <a:ModificationDate>1382004173</a:ModificationDate>
-<a:Rect>((-20641,20750), (11216,22221))</a:Rect>
+<a:Rect>((-20641,20750), (11216,22207))</a:Rect>
 <a:ListOfPoints>((-20641,20975),(11216,20975))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1475,7 +1475,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o19">
 <a:CreationDate>1382004094</a:CreationDate>
 <a:ModificationDate>1382004094</a:ModificationDate>
-<a:Rect>((-20641,23255), (-6602,24801))</a:Rect>
+<a:Rect>((-20641,23255), (-6602,24787))</a:Rect>
 <a:ListOfPoints>((-6602,23555),(-20641,23555))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1497,7 +1497,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o21">
 <a:CreationDate>1382004078</a:CreationDate>
 <a:ModificationDate>1382004078</a:ModificationDate>
-<a:Rect>((-20641,26030), (-6602,27501))</a:Rect>
+<a:Rect>((-20641,26030), (-6602,27487))</a:Rect>
 <a:ListOfPoints>((-20641,26255),(-6602,26255))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>

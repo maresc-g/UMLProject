@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{6612BA8C-2988-4A35-9980-B3CD3F75CAF6}" Label="" LastModificationDate="1383811918" Name="ModeleOrienteObjet_1" Objects="14" Symbols="12" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{6612BA8C-2988-4A35-9980-B3CD3F75CAF6}" Label="" LastModificationDate="1383811857" Name="ModeleOrienteObjet_1" Objects="14" Symbols="12" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -981,12 +981,12 @@ NameToCode=No</a:ModelOptionsText>
 <c:SequenceDiagrams>
 <o:SequenceDiagram Id="o5">
 <a:ObjectID>384E48F4-30EE-4F64-B701-7EAAB26A5126</a:ObjectID>
-<a:Name>Freetime flight</a:Name>
-<a:Code>Freetime_flight</a:Code>
+<a:Name>Freetimeflight_SystemSequence</a:Name>
+<a:Code>Freetimeflight_SystemSequence</a:Code>
 <a:CreationDate>1381409016</a:CreationDate>
 <a:Creator>Cyril</a:Creator>
-<a:ModificationDate>1381411522</a:ModificationDate>
-<a:Modifier>Cyril</a:Modifier>
+<a:ModificationDate>1383811857</a:ModificationDate>
+<a:Modifier>ansel</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
 [DisplayPreferences\SQD]
@@ -1683,8 +1683,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>Java</a:Code>
 <a:CreationDate>1381409016</a:CreationDate>
 <a:Creator>Cyril</a:Creator>
-<a:ModificationDate>1383811918</a:ModificationDate>
-<a:Modifier>Guillaume</a:Modifier>
+<a:ModificationDate>1382000500</a:ModificationDate>
+<a:Modifier>Cyril</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/java5-j2ee14.xol</a:TargetModelURL>
 <a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>
 <a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
@@ -1698,8 +1698,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>WSDLJava</a:Code>
 <a:CreationDate>1381409016</a:CreationDate>
 <a:Creator>Cyril</a:Creator>
-<a:ModificationDate>1383811918</a:ModificationDate>
-<a:Modifier>Guillaume</a:Modifier>
+<a:ModificationDate>1382000500</a:ModificationDate>
+<a:Modifier>Cyril</a:Modifier>
 <a:TargetModelURL>file:///%_XEM%/WSDLJ2EE.xem</a:TargetModelURL>
 <a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>
 <a:TargetModelClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetModelClassID>

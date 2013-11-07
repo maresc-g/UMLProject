@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{38CA8A22-1D71-4149-A353-C80955A40511}" Label="" LastModificationDate="1381998677" Name="ManageFlight_SystemSequence" Objects="25" Symbols="24" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{38CA8A22-1D71-4149-A353-C80955A40511}" Label="" LastModificationDate="1383812366" Name="ManageFlight_SystemSequence" Objects="25" Symbols="24" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -981,12 +981,12 @@ NameToCode=No</a:ModelOptionsText>
 <c:SequenceDiagrams>
 <o:SequenceDiagram Id="o5">
 <a:ObjectID>31309FAD-4DFC-4A6D-B8DE-9CE696E80C28</a:ObjectID>
-<a:Name>Manage Flight</a:Name>
-<a:Code>Manage_Flight</a:Code>
+<a:Name>ManageFlight_SystemSequence</a:Name>
+<a:Code>ManageFlight_SystemSequence</a:Code>
 <a:CreationDate>1381394303</a:CreationDate>
 <a:Creator>Guillaume</a:Creator>
-<a:ModificationDate>1381990696</a:ModificationDate>
-<a:Modifier>Guillaume</a:Modifier>
+<a:ModificationDate>1383812366</a:ModificationDate>
+<a:Modifier>ansel</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
 [DisplayPreferences\SQD]
@@ -1594,7 +1594,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <a:CreationDate>1381401561</a:CreationDate>
 <a:ModificationDate>1381998037</a:ModificationDate>
 <a:CenterTextOffset>(60, 240)</a:CenterTextOffset>
-<a:Rect>((-22076,-7980), (-8936,-6208))</a:Rect>
+<a:Rect>((-22076,-7980), (-8936,-5728))</a:Rect>
 <a:ListOfPoints>((-22076,-7680),(-8936,-7680))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -2082,8 +2082,8 @@ DISPNAME 0 Arial,8,U</a:FontList>
 <a:Code>Java</a:Code>
 <a:CreationDate>1381394303</a:CreationDate>
 <a:Creator>Guillaume</a:Creator>
-<a:ModificationDate>1381994156</a:ModificationDate>
-<a:Modifier>Guillaume</a:Modifier>
+<a:ModificationDate>1383812352</a:ModificationDate>
+<a:Modifier>ansel</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/java5-j2ee14.xol</a:TargetModelURL>
 <a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>
 <a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
@@ -2097,8 +2097,8 @@ DISPNAME 0 Arial,8,U</a:FontList>
 <a:Code>WSDLJava</a:Code>
 <a:CreationDate>1381394303</a:CreationDate>
 <a:Creator>Guillaume</a:Creator>
-<a:ModificationDate>1381994156</a:ModificationDate>
-<a:Modifier>Guillaume</a:Modifier>
+<a:ModificationDate>1383812352</a:ModificationDate>
+<a:Modifier>ansel</a:Modifier>
 <a:TargetModelURL>file:///%_XEM%/WSDLJ2EE.xem</a:TargetModelURL>
 <a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>
 <a:TargetModelClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetModelClassID>

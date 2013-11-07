@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{C6FE27E1-F037-49BC-8D36-02D735D1A265}" Label="" LastModificationDate="1382332380" Name="Diagramme de séquence UML_2" Objects="21" Symbols="19" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{C6FE27E1-F037-49BC-8D36-02D735D1A265}" Label="" LastModificationDate="1383812744" Name="Diagramme de séquence UML_2" Objects="21" Symbols="19" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -981,12 +981,12 @@ NameToCode=No</a:ModelOptionsText>
 <c:SequenceDiagrams>
 <o:SequenceDiagram Id="o5">
 <a:ObjectID>2B99C9F2-160B-4871-AFDC-214DC04C317D</a:ObjectID>
-<a:Name>Sell System Website</a:Name>
-<a:Code>Sell_System_Website</a:Code>
+<a:Name>SellSystemWebsite_SystemSequence</a:Name>
+<a:Code>SellSystemWebsite_SystemSequence</a:Code>
 <a:CreationDate>1381316120</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381913064</a:ModificationDate>
-<a:Modifier>Cyril</a:Modifier>
+<a:ModificationDate>1383812744</a:ModificationDate>
+<a:Modifier>ansel</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
 [DisplayPreferences\SQD]
@@ -1383,7 +1383,7 @@ Shadow=0</a:DisplayPreferences>
 <o:MessageSymbol Id="o7">
 <a:CreationDate>1381912909</a:CreationDate>
 <a:ModificationDate>1381913070</a:ModificationDate>
-<a:Rect>((421,-7988), (14699,-6442))</a:Rect>
+<a:Rect>((421,-7988), (14699,-6456))</a:Rect>
 <a:ListOfPoints>((421,-7688),(14699,-7688))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1404,7 +1404,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o11">
 <a:CreationDate>1381836588</a:CreationDate>
 <a:ModificationDate>1381913070</a:ModificationDate>
-<a:Rect>((-15187,2062), (421,3608))</a:Rect>
+<a:Rect>((-15187,2062), (421,3594))</a:Rect>
 <a:ListOfPoints>((-15187,2362),(421,2362))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1425,7 +1425,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o14">
 <a:CreationDate>1381836571</a:CreationDate>
 <a:ModificationDate>1381913070</a:ModificationDate>
-<a:Rect>((421,5287), (14699,7321))</a:Rect>
+<a:Rect>((421,5287), (14699,7299))</a:Rect>
 <a:ListOfPoints>((421,5587),(14699,5587))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1446,7 +1446,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o16">
 <a:CreationDate>1381836556</a:CreationDate>
 <a:ModificationDate>1381913070</a:ModificationDate>
-<a:Rect>((-15187,6487), (421,8033))</a:Rect>
+<a:Rect>((-15187,6487), (421,8019))</a:Rect>
 <a:ListOfPoints>((-15187,6787),(421,6787))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1467,7 +1467,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o18">
 <a:CreationDate>1381316699</a:CreationDate>
 <a:ModificationDate>1381913070</a:ModificationDate>
-<a:Rect>((-15187,-20670), (421,-19124))</a:Rect>
+<a:Rect>((-15187,-20670), (421,-19138))</a:Rect>
 <a:ListOfPoints>((421,-20370),(-15187,-20370))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1488,7 +1488,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o20">
 <a:CreationDate>1381316693</a:CreationDate>
 <a:ModificationDate>1381913070</a:ModificationDate>
-<a:Rect>((421,-18870), (14699,-17324))</a:Rect>
+<a:Rect>((421,-18870), (14699,-17338))</a:Rect>
 <a:ListOfPoints>((421,-18570),(14699,-18570))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1510,7 +1510,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <a:CreationDate>1381316686</a:CreationDate>
 <a:ModificationDate>1381913070</a:ModificationDate>
 <a:CenterTextOffset>(-60, 0)</a:CenterTextOffset>
-<a:Rect>((-15187,-16710), (421,-14676))</a:Rect>
+<a:Rect>((-15187,-16710), (421,-14698))</a:Rect>
 <a:ListOfPoints>((421,-16410),(-15187,-16410))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1531,7 +1531,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o24">
 <a:CreationDate>1381316680</a:CreationDate>
 <a:ModificationDate>1381913070</a:ModificationDate>
-<a:Rect>((-15187,-14190), (421,-12644))</a:Rect>
+<a:Rect>((-15187,-14190), (421,-12658))</a:Rect>
 <a:ListOfPoints>((-15187,-13890),(421,-13890))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1552,7 +1552,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o26">
 <a:CreationDate>1381316675</a:CreationDate>
 <a:ModificationDate>1381913070</a:ModificationDate>
-<a:Rect>((-15187,-11790), (421,-10244))</a:Rect>
+<a:Rect>((-15187,-11790), (421,-10258))</a:Rect>
 <a:ListOfPoints>((421,-11490),(-15187,-11490))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1573,7 +1573,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o28">
 <a:CreationDate>1381316609</a:CreationDate>
 <a:ModificationDate>1381913070</a:ModificationDate>
-<a:Rect>((-15187,-6090), (421,-4544))</a:Rect>
+<a:Rect>((-15187,-6090), (421,-4558))</a:Rect>
 <a:ListOfPoints>((-15187,-5790),(421,-5790))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1594,7 +1594,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o30">
 <a:CreationDate>1381316604</a:CreationDate>
 <a:ModificationDate>1381913070</a:ModificationDate>
-<a:Rect>((-15187,-3510), (421,-1964))</a:Rect>
+<a:Rect>((-15187,-3510), (421,-1978))</a:Rect>
 <a:ListOfPoints>((421,-3210),(-15187,-3210))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1615,7 +1615,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o32">
 <a:CreationDate>1381316593</a:CreationDate>
 <a:ModificationDate>1381913070</a:ModificationDate>
-<a:Rect>((-15187,-1110), (421,436))</a:Rect>
+<a:Rect>((-15187,-1110), (421,422))</a:Rect>
 <a:ListOfPoints>((-15187,-810),(421,-810))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1937,8 +1937,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>Java</a:Code>
 <a:CreationDate>1381316120</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1381905279</a:ModificationDate>
-<a:Modifier>Guillaume</a:Modifier>
+<a:ModificationDate>1383812730</a:ModificationDate>
+<a:Modifier>ansel</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/java5-j2ee14.xol</a:TargetModelURL>
 <a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>
 <a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
@@ -1952,8 +1952,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>WSDLJava</a:Code>
 <a:CreationDate>1381316121</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1382332380</a:ModificationDate>
-<a:Modifier>Alexis</a:Modifier>
+<a:ModificationDate>1383812730</a:ModificationDate>
+<a:Modifier>ansel</a:Modifier>
 <a:TargetModelURL>file:///%_XEM%/WSDLJ2EE.xem</a:TargetModelURL>
 <a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>
 <a:TargetModelClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetModelClassID>

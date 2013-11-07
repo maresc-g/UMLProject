@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{AC31149F-5C01-466C-B73B-94F92B308CCD}" Label="" LastModificationDate="1383811950" Name="ManageFlight_Activity" Objects="48" Symbols="49" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{AC31149F-5C01-466C-B73B-94F92B308CCD}" Label="" LastModificationDate="1383813333" Name="ManageFlight_Activity" Objects="48" Symbols="48" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1279,8 +1279,8 @@ NameToCode=No</a:ModelOptionsText>
 <a:Code>Ask_list_of_available_employees</a:Code>
 <a:CreationDate>1381821332</a:CreationDate>
 <a:Creator>Guillaume</a:Creator>
-<a:ModificationDate>1381821412</a:ModificationDate>
-<a:Modifier>Guillaume</a:Modifier>
+<a:ModificationDate>1383812227</a:ModificationDate>
+<a:Modifier>ansel</a:Modifier>
 <a:ActionType>UNDEF</a:ActionType>
 <c:OrganizationUnit>
 <o:OrganizationUnit Ref="o44"/>
@@ -1453,12 +1453,12 @@ NameToCode=No</a:ModelOptionsText>
 <c:ActivityDiagrams>
 <o:ActivityDiagram Id="o5">
 <a:ObjectID>236C7994-FC34-48F2-BFBF-17DBBDEE3CD9</a:ObjectID>
-<a:Name>DiagrammeActivites_1</a:Name>
-<a:Code>DiagrammeActivites_1</a:Code>
+<a:Name>ManageFlight_Activity</a:Name>
+<a:Code>ManageFlight_Activity</a:Code>
 <a:CreationDate>1381820221</a:CreationDate>
 <a:Creator>Guillaume</a:Creator>
-<a:ModificationDate>1381993621</a:ModificationDate>
-<a:Modifier>Guillaume</a:Modifier>
+<a:ModificationDate>1383812312</a:ModificationDate>
+<a:Modifier>ansel</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
 [DisplayPreferences\ACD]
@@ -1945,25 +1945,22 @@ Shadow=0</a:DisplayPreferences>
 <a:PageOrientation>1</a:PageOrientation>
 <a:PaperSource>15</a:PaperSource>
 <c:Symbols>
-<o:TextSymbol Id="o48">
-<a:Text>ManageFlight ActivityDiagram</a:Text>
-<a:CreationDate>1381993621</a:CreationDate>
-<a:ModificationDate>1381993651</a:ModificationDate>
-<a:Rect>((-6928,34621), (5310,39301))</a:Rect>
+<o:TitleSymbol Id="o48">
+<a:Text>Version: </a:Text>
+<a:CreationDate>1383812107</a:CreationDate>
+<a:ModificationDate>1383812312</a:ModificationDate>
+<a:Rect>((-7380,30631), (6179,37290))</a:Rect>
 <a:TextStyle>4130</a:TextStyle>
-<a:AutoAdjustToText>0</a:AutoAdjustToText>
-<a:LineColor>0</a:LineColor>
-<a:DashStyle>7</a:DashStyle>
-<a:FillColor>0</a:FillColor>
+<a:LineColor>16711680</a:LineColor>
+<a:FillColor>16777215</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontName>Arial,8,N</a:FontName>
-<a:ManuallyResized>1</a:ManuallyResized>
-</o:TextSymbol>
+</o:TitleSymbol>
 <o:FlowSymbol Id="o49">
 <a:CreationDate>1381820913</a:CreationDate>
-<a:ModificationDate>1381993745</a:ModificationDate>
-<a:Rect>((-17170,24540), (-6982,27600))</a:Rect>
-<a:ListOfPoints>((-17170,27600),(-17170,24540),(-6982,24540))</a:ListOfPoints>
+<a:ModificationDate>1383812190</a:ModificationDate>
+<a:Rect>((-17350,18960), (-6947,22020))</a:Rect>
+<a:ListOfPoints>((-17243,22020),(-17350,18960),(-6947,18960))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1982,9 +1979,9 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </o:FlowSymbol>
 <o:FlowSymbol Id="o52">
 <a:CreationDate>1381821340</a:CreationDate>
-<a:ModificationDate>1381993752</a:ModificationDate>
-<a:Rect>((-17782,12226), (-10890,14806))</a:Rect>
-<a:ListOfPoints>((-17782,14806),(-10890,14806),(-10890,12226))</a:ListOfPoints>
+<a:ModificationDate>1383812190</a:ModificationDate>
+<a:Rect>((-17855,7486), (-10890,9226))</a:Rect>
+<a:ListOfPoints>((-17855,9226),(-10890,9226),(-10890,7486))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -2003,9 +2000,9 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </o:FlowSymbol>
 <o:FlowSymbol Id="o55">
 <a:CreationDate>1381821637</a:CreationDate>
-<a:ModificationDate>1381993661</a:ModificationDate>
-<a:Rect>((-18915,2161), (-4907,6240))</a:Rect>
-<a:ListOfPoints>((-4907,6240),(-4907,2161),(-18915,2161))</a:ListOfPoints>
+<a:ModificationDate>1383812190</a:ModificationDate>
+<a:Rect>((-18988,-3419), (-4907,1500))</a:Rect>
+<a:ListOfPoints>((-4907,1500),(-4907,-3419),(-18988,-3419))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -2024,9 +2021,9 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </o:FlowSymbol>
 <o:FlowSymbol Id="o58">
 <a:CreationDate>1381825638</a:CreationDate>
-<a:ModificationDate>1381993745</a:ModificationDate>
-<a:Rect>((-1476,23519), (8973,25200))</a:Rect>
-<a:ListOfPoints>((-1476,25200),(-1476,23519),(8973,23519))</a:ListOfPoints>
+<a:ModificationDate>1383812190</a:ModificationDate>
+<a:Rect>((-1656,17939), (9008,19620))</a:Rect>
+<a:ListOfPoints>((-1441,19620),(-1656,17939),(9008,17939))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -2045,10 +2042,11 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </o:FlowSymbol>
 <o:FlowSymbol Id="o60">
 <a:CreationDate>1381825640</a:CreationDate>
-<a:ModificationDate>1381993661</a:ModificationDate>
+<a:ModificationDate>1383813333</a:ModificationDate>
+<a:SourceTextOffset>(-3303, -820)</a:SourceTextOffset>
 <a:DestinationTextOffset>(-3960, 720)</a:DestinationTextOffset>
-<a:Rect>((-3155,18480), (13276,19725))</a:Rect>
-<a:ListOfPoints>((8974,19559),(11974,18480),(-3155,18480))</a:ListOfPoints>
+<a:Rect>((-3120,11382), (9008,13979))</a:Rect>
+<a:ListOfPoints>((9008,13979),(8793,12900),(-3120,12900))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -2067,9 +2065,9 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </o:FlowSymbol>
 <o:FlowSymbol Id="o62">
 <a:CreationDate>1381825922</a:CreationDate>
-<a:ModificationDate>1381993724</a:ModificationDate>
-<a:Rect>((-17118,15240), (-4596,18360))</a:Rect>
-<a:ListOfPoints>((-5976,18360),(-4596,15240),(-17118,15240))</a:ListOfPoints>
+<a:ModificationDate>1383812190</a:ModificationDate>
+<a:Rect>((-17191,9660), (-5941,12780))</a:Rect>
+<a:ListOfPoints>((-5941,12780),(-6156,9660),(-17191,9660))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -2088,9 +2086,9 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </o:FlowSymbol>
 <o:FlowSymbol Id="o63">
 <a:CreationDate>1381826084</a:CreationDate>
-<a:ModificationDate>1381993752</a:ModificationDate>
-<a:Rect>((-150,9119), (20859,11700))</a:Rect>
-<a:ListOfPoints>((-150,11700),(8915,11700),(8915,9119),(20859,9119))</a:ListOfPoints>
+<a:ModificationDate>1383812190</a:ModificationDate>
+<a:Rect>((-150,3539), (20894,6960))</a:Rect>
+<a:ListOfPoints>((-150,6960),(8915,6960),(8915,3539),(20894,3539))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -2109,9 +2107,10 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </o:FlowSymbol>
 <o:FlowSymbol Id="o65">
 <a:CreationDate>1381826088</a:CreationDate>
-<a:ModificationDate>1381993661</a:ModificationDate>
-<a:Rect>((-4230,4579), (23774,6060))</a:Rect>
-<a:ListOfPoints>((20859,5159),(8413,5159),(8413,6060),(-4230,6060))</a:ListOfPoints>
+<a:ModificationDate>1383813315</a:ModificationDate>
+<a:SourceTextOffset>(-5400, -1320)</a:SourceTextOffset>
+<a:Rect>((-4230,-2321), (20894,1320))</a:Rect>
+<a:ListOfPoints>((20894,-421),(8413,-421),(8413,1320),(-4230,1320))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -2130,9 +2129,9 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </o:FlowSymbol>
 <o:FlowSymbol Id="o66">
 <a:CreationDate>1381826362</a:CreationDate>
-<a:ModificationDate>1381993661</a:ModificationDate>
-<a:Rect>((-16410,-660), (-5549,2280))</a:Rect>
-<a:ListOfPoints>((-16410,2280),(-16410,-660),(-5549,-660))</a:ListOfPoints>
+<a:ModificationDate>1383812190</a:ModificationDate>
+<a:Rect>((-16590,-6240), (-5514,-3300))</a:Rect>
+<a:ListOfPoints>((-16483,-3300),(-16590,-6240),(-5514,-6240))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -2151,9 +2150,9 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </o:FlowSymbol>
 <o:FlowSymbol Id="o68">
 <a:CreationDate>1381826364</a:CreationDate>
-<a:ModificationDate>1381993661</a:ModificationDate>
-<a:Rect>((-4289,-2818), (5447,-1020))</a:Rect>
-<a:ListOfPoints>((-4289,-1020),(-2309,-2818),(5447,-2818))</a:ListOfPoints>
+<a:ModificationDate>1383812190</a:ModificationDate>
+<a:Rect>((-4469,-8398), (5482,-6600))</a:Rect>
+<a:ListOfPoints>((-4254,-6600),(-4469,-8398),(5482,-8398))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -2172,9 +2171,9 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </o:FlowSymbol>
 <o:FlowSymbol Id="o70">
 <a:CreationDate>1381826370</a:CreationDate>
-<a:ModificationDate>1381993661</a:ModificationDate>
-<a:Rect>((-5250,-5219), (18288,-720))</a:Rect>
-<a:ListOfPoints>((-5250,-720),(-3270,-5219),(18288,-5219))</a:ListOfPoints>
+<a:ModificationDate>1383812190</a:ModificationDate>
+<a:Rect>((-5430,-10799), (18323,-6300))</a:Rect>
+<a:ListOfPoints>((-5215,-6300),(-5430,-10799),(18323,-10799))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -2193,9 +2192,9 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </o:FlowSymbol>
 <o:FlowSymbol Id="o72">
 <a:CreationDate>1381826576</a:CreationDate>
-<a:ModificationDate>1381993740</a:ModificationDate>
-<a:Rect>((-19051,-7319), (18779,-4800))</a:Rect>
-<a:ListOfPoints>((17670,-4800),(18779,-7319),(-19051,-7319))</a:ListOfPoints>
+<a:ModificationDate>1383812190</a:ModificationDate>
+<a:Rect>((-19124,-12899), (17705,-10380))</a:Rect>
+<a:ListOfPoints>((17705,-10380),(17490,-12899),(-19124,-12899))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -2214,9 +2213,9 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </o:FlowSymbol>
 <o:FlowSymbol Id="o74">
 <a:CreationDate>1381826623</a:CreationDate>
-<a:ModificationDate>1381993740</a:ModificationDate>
-<a:Rect>((-14019,-10619), (-6702,-9299))</a:Rect>
-<a:ListOfPoints>((-14019,-9299),(-9639,-9299),(-9639,-10619),(-6702,-10619))</a:ListOfPoints>
+<a:ModificationDate>1383812190</a:ModificationDate>
+<a:Rect>((-14092,-16199), (-6667,-14879))</a:Rect>
+<a:ListOfPoints>((-14092,-14879),(-9819,-14879),(-9819,-16199),(-6667,-16199))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -2235,9 +2234,9 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </o:FlowSymbol>
 <o:FlowSymbol Id="o76">
 <a:CreationDate>1381826624</a:CreationDate>
-<a:ModificationDate>1381993661</a:ModificationDate>
-<a:Rect>((-4063,-12959), (6497,-10619))</a:Rect>
-<a:ListOfPoints>((-4063,-10619),(-2083,-12959),(6497,-12959))</a:ListOfPoints>
+<a:ModificationDate>1383812190</a:ModificationDate>
+<a:Rect>((-4243,-18539), (6532,-16199))</a:Rect>
+<a:ListOfPoints>((-4028,-16199),(-4243,-18539),(6532,-18539))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -2256,9 +2255,9 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </o:FlowSymbol>
 <o:FlowSymbol Id="o78">
 <a:CreationDate>1381826625</a:CreationDate>
-<a:ModificationDate>1381993661</a:ModificationDate>
-<a:Rect>((-18390,-14640), (9759,-12809))</a:Rect>
-<a:ListOfPoints>((6759,-12809),(9759,-14640),(-18390,-14640))</a:ListOfPoints>
+<a:ModificationDate>1383812190</a:ModificationDate>
+<a:Rect>((-18463,-20220), (6794,-18389))</a:Rect>
+<a:ListOfPoints>((6794,-18389),(6579,-20220),(-18463,-20220))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -2277,15 +2276,15 @@ DESTINATION 0 Arial,8,N</a:FontList>
 </o:FlowSymbol>
 <o:SwimlaneGroupSymbol Id="o80">
 <a:CreationDate>1381820435</a:CreationDate>
-<a:ModificationDate>1381993764</a:ModificationDate>
-<a:Rect>((-25468,-25620), (27902,35216))</a:Rect>
+<a:ModificationDate>1383812190</a:ModificationDate>
+<a:Rect>((-25648,-31200), (27937,29636))</a:Rect>
 <a:LineColor>0</a:LineColor>
 <c:SubSymbols>
 <o:SwimlaneSymbol Id="o81">
 <a:CreationDate>1381820435</a:CreationDate>
-<a:ModificationDate>1381993734</a:ModificationDate>
+<a:ModificationDate>1383812190</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-25468,-25620), (-12619,35216))</a:Rect>
+<a:Rect>((-25648,-31200), (-12584,29636))</a:Rect>
 <a:AutoAdjustToText>0</a:AutoAdjustToText>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16773874</a:FillColor>
@@ -2301,8 +2300,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <o:FlowSymbol Id="o82">
 <a:CreationDate>1381826588</a:CreationDate>
 <a:ModificationDate>1381993740</a:ModificationDate>
-<a:Rect>((-19185,-14640), (-16785,-11279))</a:Rect>
-<a:ListOfPoints>((-19185,-11279),(-19185,-12594),(-18390,-12594),(-18390,-14640))</a:ListOfPoints>
+<a:Rect>((-19258,-20220), (-16858,-16859))</a:Rect>
+<a:ListOfPoints>((-19258,-16859),(-19258,-18174),(-18463,-18174),(-18463,-20220))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -2322,8 +2321,8 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <o:FlowSymbol Id="o83">
 <a:CreationDate>1381820911</a:CreationDate>
 <a:ModificationDate>1381993720</a:ModificationDate>
-<a:Rect>((-19135,28200), (-18651,31379))</a:Rect>
-<a:ListOfPoints>((-18837,31379),(-18949,28200))</a:ListOfPoints>
+<a:Rect>((-19208,22620), (-18724,25799))</a:Rect>
+<a:ListOfPoints>((-18910,25799),(-19022,22620))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -2344,7 +2343,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <a:CreationDate>1381820634</a:CreationDate>
 <a:ModificationDate>1381993715</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-19437,30780), (-18238,31979))</a:Rect>
+<a:Rect>((-19510,25200), (-18311,26399))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>12615680</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2364,7 +2363,7 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:CreationDate>1381820796</a:CreationDate>
 <a:ModificationDate>1381993720</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-23061,26600), (-14797,28599))</a:Rect>
+<a:Rect>((-23134,21020), (-14870,23019))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16777152</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2382,7 +2381,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1381821332</a:CreationDate>
 <a:ModificationDate>1381993724</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-24765,14120), (-13321,16119))</a:Rect>
+<a:Rect>((-24838,8540), (-13394,10539))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16777152</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2400,7 +2399,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1381821632</a:CreationDate>
 <a:ModificationDate>1381993600</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-22739,1461), (-14775,3460))</a:Rect>
+<a:Rect>((-22812,-4119), (-14848,-2120))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16777152</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2418,7 +2417,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1381826555</a:CreationDate>
 <a:ModificationDate>1381993740</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-24134,-11299), (-13968,-7300))</a:Rect>
+<a:Rect>((-24207,-16879), (-14041,-12880))</a:Rect>
 <a:LineColor>32896</a:LineColor>
 <a:FillColor>12648447</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2437,7 +2436,7 @@ DEXN 0 Arial,8,N</a:FontList>
 <a:CreationDate>1381826584</a:CreationDate>
 <a:ModificationDate>1381993600</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-19140,-15390), (-17641,-13891))</a:Rect>
+<a:Rect>((-19213,-20970), (-17714,-19471))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>12615680</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2460,9 +2459,9 @@ DISPNAME 0 Arial,8,N</a:FontList>
 </o:SwimlaneSymbol>
 <o:SwimlaneSymbol Id="o85">
 <a:CreationDate>1381820439</a:CreationDate>
-<a:ModificationDate>1381993754</a:ModificationDate>
+<a:ModificationDate>1383812190</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-12619,-25620), (1597,35216))</a:Rect>
+<a:Rect>((-12584,-31200), (1632,29636))</a:Rect>
 <a:AutoAdjustToText>0</a:AutoAdjustToText>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16773874</a:FillColor>
@@ -2479,7 +2478,7 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:CreationDate>1381820851</a:CreationDate>
 <a:ModificationDate>1381993745</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-11688,23840), (834,25839))</a:Rect>
+<a:Rect>((-11653,18260), (869,20259))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16777152</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2497,7 +2496,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1381821127</a:CreationDate>
 <a:ModificationDate>1381821127</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-8836,16580), (-1292,18579))</a:Rect>
+<a:Rect>((-8801,11000), (-1257,12999))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16777152</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2514,7 +2513,7 @@ LABL 0 Arial,8,N</a:FontList>
 <o:BaseSynchronizationSymbol Id="o67">
 <a:CreationDate>1381826340</a:CreationDate>
 <a:ModificationDate>1381826385</a:ModificationDate>
-<a:Rect>((-7228,-1470), (-2974,29))</a:Rect>
+<a:Rect>((-7193,-7050), (-2939,-5551))</a:Rect>
 <a:AutoAdjustToText>0</a:AutoAdjustToText>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>12615680</a:FillColor>
@@ -2531,7 +2530,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1381826618</a:CreationDate>
 <a:ModificationDate>1381826643</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-8274,-11739), (-1990,-9740))</a:Rect>
+<a:Rect>((-8239,-17319), (-1955,-15320))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16777152</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2552,9 +2551,9 @@ LABL 0 Arial,8,N</a:FontList>
 </o:SwimlaneSymbol>
 <o:SwimlaneSymbol Id="o86">
 <a:CreationDate>1381820440</a:CreationDate>
-<a:ModificationDate>1381993764</a:ModificationDate>
+<a:ModificationDate>1383812190</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((1597,-25620), (14180,35216))</a:Rect>
+<a:Rect>((1632,-31200), (14215,29636))</a:Rect>
 <a:AutoAdjustToText>0</a:AutoAdjustToText>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16773874</a:FillColor>
@@ -2569,9 +2568,10 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <c:SubSymbols>
 <o:FlowSymbol Id="o87">
 <a:CreationDate>1381825676</a:CreationDate>
-<a:ModificationDate>1381826885</a:ModificationDate>
-<a:Rect>((8680,15959), (11253,19559))</a:Rect>
-<a:ListOfPoints>((8995,19559),(8853,15959))</a:ListOfPoints>
+<a:ModificationDate>1383813341</a:ModificationDate>
+<a:SourceTextOffset>(2880, 980)</a:SourceTextOffset>
+<a:Rect>((9030,9359), (13388,14330))</a:Rect>
+<a:ListOfPoints>((9030,13979),(9030,12874),(13388,12874),(13388,9359))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -2592,7 +2592,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <a:CreationDate>1381825634</a:CreationDate>
 <a:ModificationDate>1381826153</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((4655,19540), (13292,23539))</a:Rect>
+<a:Rect>((4690,13960), (13327,17959))</a:Rect>
 <a:LineColor>32896</a:LineColor>
 <a:FillColor>12648447</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2609,9 +2609,9 @@ DEXN 0 Arial,8,N</a:FontList>
 </o:BaseDecisionSymbol>
 <o:EndSymbol Id="o88">
 <a:CreationDate>1381825672</a:CreationDate>
-<a:ModificationDate>1381826885</a:ModificationDate>
+<a:ModificationDate>1383813337</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((8104,15210), (9603,16709))</a:Rect>
+<a:Rect>((12639,8610), (14138,10109))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>12615680</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2631,7 +2631,7 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:CreationDate>1381826233</a:CreationDate>
 <a:ModificationDate>1381826386</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((2736,-3698), (13580,-1699))</a:Rect>
+<a:Rect>((2771,-9278), (13615,-7279))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16777152</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2649,7 +2649,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1381826619</a:CreationDate>
 <a:ModificationDate>1381826619</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((2198,-13599), (12682,-11600))</a:Rect>
+<a:Rect>((2233,-19179), (12717,-17180))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16777152</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2670,9 +2670,9 @@ LABL 0 Arial,8,N</a:FontList>
 </o:SwimlaneSymbol>
 <o:SwimlaneSymbol Id="o89">
 <a:CreationDate>1381820452</a:CreationDate>
-<a:ModificationDate>1381993661</a:ModificationDate>
+<a:ModificationDate>1383812190</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((14180,-25620), (27902,35216))</a:Rect>
+<a:Rect>((14215,-31200), (27937,29636))</a:Rect>
 <a:AutoAdjustToText>0</a:AutoAdjustToText>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16773874</a:FillColor>
@@ -2687,9 +2687,10 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <c:SubSymbols>
 <o:FlowSymbol Id="o90">
 <a:CreationDate>1381826104</a:CreationDate>
-<a:ModificationDate>1381826149</a:ModificationDate>
-<a:Rect>((19576,2159), (21976,5159))</a:Rect>
-<a:ListOfPoints>((20799,5159),(20740,2159))</a:ListOfPoints>
+<a:ModificationDate>1383813319</a:ModificationDate>
+<a:SourceTextOffset>(1294, -460)</a:SourceTextOffset>
+<a:Rect>((20527,-6000), (23279,-421))</a:Rect>
+<a:ListOfPoints>((20804,-421),(20715,-6000))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -2710,7 +2711,7 @@ DESTINATION 0 Arial,8,N</a:FontList>
 <a:CreationDate>1381826011</a:CreationDate>
 <a:ModificationDate>1381826079</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((15105,5140), (26613,9139))</a:Rect>
+<a:Rect>((15140,-440), (26648,3559))</a:Rect>
 <a:AutoAdjustToText>0</a:AutoAdjustToText>
 <a:LineColor>32896</a:LineColor>
 <a:FillColor>12648447</a:FillColor>
@@ -2729,9 +2730,9 @@ DEXN 0 Arial,8,N</a:FontList>
 </o:BaseDecisionSymbol>
 <o:EndSymbol Id="o91">
 <a:CreationDate>1381826099</a:CreationDate>
-<a:ModificationDate>1381826099</a:ModificationDate>
+<a:ModificationDate>1383813294</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((19991,1410), (21490,2909))</a:Rect>
+<a:Rect>((19966,-6750), (21465,-5251))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>12615680</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2751,7 +2752,7 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:CreationDate>1381826236</a:CreationDate>
 <a:ModificationDate>1381826388</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((14782,-5979), (27302,-3980))</a:Rect>
+<a:Rect>((14817,-11559), (27337,-9560))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16777152</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2774,9 +2775,9 @@ LABL 0 Arial,8,N</a:FontList>
 </o:SwimlaneGroupSymbol>
 <o:ActivitySymbol Id="o54">
 <a:CreationDate>1381821335</a:CreationDate>
-<a:ModificationDate>1381993752</a:ModificationDate>
+<a:ModificationDate>1383812190</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-11653,10471), (1057,12688))</a:Rect>
+<a:Rect>((-11653,5731), (1057,7948))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16777152</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2792,9 +2793,9 @@ LABL 0 Arial,8,N</a:FontList>
 </o:ActivitySymbol>
 <o:ActivitySymbol Id="o56">
 <a:CreationDate>1381821630</a:CreationDate>
-<a:ModificationDate>1381825930</a:ModificationDate>
+<a:ModificationDate>1383812190</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-6887,5240), (-888,7239))</a:Rect>
+<a:Rect>((-6887,500), (-888,2499))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16777152</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2858,7 +2859,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>Java</a:Code>
 <a:CreationDate>1381820221</a:CreationDate>
 <a:Creator>Guillaume</a:Creator>
-<a:ModificationDate>1383811950</a:ModificationDate>
+<a:ModificationDate>1381820221</a:ModificationDate>
 <a:Modifier>Guillaume</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/java5-j2ee14.xol</a:TargetModelURL>
 <a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>

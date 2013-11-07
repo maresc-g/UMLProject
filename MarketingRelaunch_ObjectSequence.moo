@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{01A54595-7570-4F0B-9844-999E3739BE77}" Label="" LastModificationDate="1381994148" Name="ModeleOrienteObjet_1" Objects="12" Symbols="17" Target="C++" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{01A54595-7570-4F0B-9844-999E3739BE77}" Label="" LastModificationDate="1383812508" Name="ModeleOrienteObjet_1" Objects="12" Symbols="17" Target="C++" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -967,12 +967,12 @@ NameToCode=No</a:ModelOptionsText>
 <c:SequenceDiagrams>
 <o:SequenceDiagram Id="o4">
 <a:ObjectID>FA30EA27-E20B-4E67-8B64-C6BB47F46AB5</a:ObjectID>
-<a:Name>Send Marketing Relaunch</a:Name>
-<a:Code>Send_Marketing_Relaunch</a:Code>
+<a:Name>SendMarketingRelaunch_ObjectSequence</a:Name>
+<a:Code>SendMarketingRelaunch_ObjectSequence</a:Code>
 <a:CreationDate>1381991878</a:CreationDate>
 <a:Creator>Alexis</a:Creator>
-<a:ModificationDate>1381994065</a:ModificationDate>
-<a:Modifier>Alexis</a:Modifier>
+<a:ModificationDate>1383812508</a:ModificationDate>
+<a:Modifier>ansel</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
 [DisplayPreferences\SQD]
@@ -1369,7 +1369,7 @@ Shadow=0</a:DisplayPreferences>
 <o:MessageSymbol Id="o6">
 <a:CreationDate>1381994065</a:CreationDate>
 <a:ModificationDate>1381994143</a:ModificationDate>
-<a:Rect>((-19440,13380), (11940,14926))</a:Rect>
+<a:Rect>((-19440,13380), (11940,14912))</a:Rect>
 <a:ListOfPoints>((11940,13680),(-19440,13680))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1391,7 +1391,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o10">
 <a:CreationDate>1381993889</a:CreationDate>
 <a:ModificationDate>1381994143</a:ModificationDate>
-<a:Rect>((-19440,14955), (12239,16426))</a:Rect>
+<a:Rect>((-19440,14955), (12239,16412))</a:Rect>
 <a:ListOfPoints>((-19440,15180),(12239,15180))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1413,7 +1413,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <a:CreationDate>1381993798</a:CreationDate>
 <a:ModificationDate>1381994143</a:ModificationDate>
 <a:CenterTextOffset>(1860, 120)</a:CenterTextOffset>
-<a:Rect>((-19982,17000), (-10097,19166))</a:Rect>
+<a:Rect>((-19982,17000), (-10112,19152))</a:Rect>
 <a:ListOfPoints>((-19982,18600),(-16382,18600),(-16382,17000),(-19982,17000))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1434,7 +1434,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o15">
 <a:CreationDate>1381993533</a:CreationDate>
 <a:ModificationDate>1381994148</a:ModificationDate>
-<a:Rect>((-20040,22680), (-3660,24226))</a:Rect>
+<a:Rect>((-20040,22680), (-3660,24212))</a:Rect>
 <a:ListOfPoints>((-3660,22980),(-20040,22980))</a:ListOfPoints>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1456,7 +1456,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <o:MessageSymbol Id="o19">
 <a:CreationDate>1381993334</a:CreationDate>
 <a:ModificationDate>1381994148</a:ModificationDate>
-<a:Rect>((-19982,24735), (-3720,26206))</a:Rect>
+<a:Rect>((-19982,24735), (-3720,26192))</a:Rect>
 <a:ListOfPoints>((-19982,24960),(-3720,24960))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -1515,7 +1515,7 @@ DISPNAME 0 Arial,8,U</a:FontList>
 <o:UMLObjectSequenceSymbol Id="o24">
 <a:CreationDate>1381993244</a:CreationDate>
 <a:ModificationDate>1381993991</a:ModificationDate>
-<a:Rect>((-23543,28620), (-16421,32219))</a:Rect>
+<a:Rect>((-23491,28620), (-16473,32219))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16775660</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1735,8 +1735,8 @@ DISPNAME 0 Arial,8,U</a:FontList>
 <a:Code>C++</a:Code>
 <a:CreationDate>1381991878</a:CreationDate>
 <a:Creator>Alexis</a:Creator>
-<a:ModificationDate>1381991878</a:ModificationDate>
-<a:Modifier>Alexis</a:Modifier>
+<a:ModificationDate>1383812491</a:ModificationDate>
+<a:Modifier>ansel</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/C++.xol</a:TargetModelURL>
 <a:TargetModelID>22FB523D-7E45-430F-8069-3A702CF3BE3C</a:TargetModelID>
 <a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
