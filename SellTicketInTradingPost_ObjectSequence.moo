@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{E1840381-53DE-42CA-A56C-CC97FBDA3416}" Label="" LastModificationDate="1383925245" Name="SellTicketInTradingPost_ObjectSequence" Objects="93" Symbols="151" Target="C++" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{E1840381-53DE-42CA-A56C-CC97FBDA3416}" Label="" LastModificationDate="1384101540" Name="SellTicketInTradingPost_ObjectSequence" Objects="67" Symbols="66" Target="C++" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -3379,8 +3379,8 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:Code>C++</a:Code>
 <a:CreationDate>1381999264</a:CreationDate>
 <a:Creator>Alexis</a:Creator>
-<a:ModificationDate>1383923596</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
+<a:ModificationDate>1384101540</a:ModificationDate>
+<a:Modifier>Alexis</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/C++.xol</a:TargetModelURL>
 <a:TargetModelID>22FB523D-7E45-430F-8069-3A702CF3BE3C</a:TargetModelID>
 <a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
