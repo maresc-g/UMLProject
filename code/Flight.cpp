@@ -1,0 +1,164 @@
+/***********************************************************************
+ * Module:  Flight.cpp
+ * Author:  Alexis
+ * Modified: dimanche 10 novembre 2013 17:46:32
+ * Purpose: Implementation of the class Flight
+ ***********************************************************************/
+
+#include "Plane.h"
+#include "Pilot.h"
+#include "Steward.h"
+#include "Airport.h"
+#include "Ticket.h"
+#include "Flight.h"
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Flight::get_isFreetime()
+// Purpose:    Implementation of Flight::get_isFreetime()
+// Return:     bool
+////////////////////////////////////////////////////////////////////////
+
+bool Flight::get_isFreetime(void)
+{
+   return _isFreetime;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Flight::set_isFreetime(bool new_isFreetime)
+// Purpose:    Implementation of Flight::set_isFreetime()
+// Parameters:
+// - new_isFreetime
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Flight::set_isFreetime(bool new_isFreetime)
+{
+   _isFreetime = new_isFreetime;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Flight::getBookingRate()
+// Purpose:    Implementation of Flight::getBookingRate()
+// Return:     int
+////////////////////////////////////////////////////////////////////////
+
+int Flight::getBookingRate(void)
+{
+   // TODO : implement
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Flight::get_price()
+// Purpose:    Implementation of Flight::get_price()
+// Return:     int
+////////////////////////////////////////////////////////////////////////
+
+int Flight::get_price(void)
+{
+   return _price;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Flight::set_price(int new_price)
+// Purpose:    Implementation of Flight::set_price()
+// Parameters:
+// - new_price
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Flight::set_price(int new_price)
+{
+   _price = new_price;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Flight::getBookedTickets()
+// Purpose:    Implementation of Flight::getBookedTickets()
+// Return:     list
+////////////////////////////////////////////////////////////////////////
+
+list Flight::getBookedTickets(void)
+{
+   // TODO : implement
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Flight::get_distance()
+// Purpose:    Implementation of Flight::get_distance()
+// Return:     int
+////////////////////////////////////////////////////////////////////////
+
+int Flight::get_distance(void)
+{
+   return _distance;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Flight::set_distance(int new_distance)
+// Purpose:    Implementation of Flight::set_distance()
+// Parameters:
+// - new_distance
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Flight::set_distance(int new_distance)
+{
+   _distance = new_distance;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Flight::getPlane()
+// Purpose:    Implementation of Flight::getPlane()
+// Return:     Plane
+////////////////////////////////////////////////////////////////////////
+
+Plane Flight::getPlane(void)
+{
+   // TODO : implement
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Flight::getAssignedEmployees(eEmployee type)
+// Purpose:    Implementation of Flight::getAssignedEmployees()
+// Parameters:
+// - type
+// Return:     list
+////////////////////////////////////////////////////////////////////////
+
+list Flight::getAssignedEmployees(eEmployee type)
+{
+   // TODO : implement
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Flight::getNotRegisteredTickets()
+// Purpose:    Implementation of Flight::getNotRegisteredTickets()
+// Return:     list
+////////////////////////////////////////////////////////////////////////
+
+list Flight::getNotRegisteredTickets(void)
+{
+   // TODO : implement
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Flight::getNotBookedTickets()
+// Purpose:    Implementation of Flight::getNotBookedTickets()
+// Return:     list
+////////////////////////////////////////////////////////////////////////
+
+list Flight::getNotBookedTickets(void)
+{
+   // TODO : implement
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Flight::getSpecialDiscountTicketsRate()
+// Purpose:    Implementation of Flight::getSpecialDiscountTicketsRate()
+// Return:     int
+////////////////////////////////////////////////////////////////////////
+
+int Flight::getSpecialDiscountTicketsRate(void)
+{
+   // TODO : implement
+}
