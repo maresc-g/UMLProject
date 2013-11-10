@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{C9A6C70B-9C9A-4CDA-A2F8-2AC91BC52656}" Label="" LastModificationDate="1383924957" Name="ManagePersonnelSchedule_ObjectSequence" Objects="74" Symbols="119" Target="C++" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{C9A6C70B-9C9A-4CDA-A2F8-2AC91BC52656}" Label="" LastModificationDate="1384102334" Name="ManagePersonnelSchedule_ObjectSequence" Objects="69" Symbols="41" Target="C++" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1455,7 +1455,7 @@ ETIM 0 Arial,8,N</a:FontList>
 <a:CreationDate>1383917328</a:CreationDate>
 <a:ModificationDate>1383917525</a:ModificationDate>
 <a:CenterTextOffset>(4440, 480)</a:CenterTextOffset>
-<a:Rect>((-19319,-1870), (-3539,642))</a:Rect>
+<a:Rect>((-19319,-1870), (-3539,1122))</a:Rect>
 <a:ListOfPoints>((-19319,-270),(-15719,-270),(-15719,-1870),(-19319,-1870))</a:ListOfPoints>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>12615808</a:LineColor>
@@ -2749,12 +2749,12 @@ DISPNAME 0 Arial,8,U</a:FontList>
 </o:Message>
 <o:Message Id="o50">
 <a:ObjectID>130CCD07-B821-4195-AB42-6D0555B00A18</a:ObjectID>
-<a:Name>GetFlights</a:Name>
-<a:Code>GetFlights</a:Code>
+<a:Name>getFlights</a:Name>
+<a:Code>getFlights</a:Code>
 <a:CreationDate>1383914596</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1383914654</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
+<a:ModificationDate>1384102334</a:ModificationDate>
+<a:Modifier>Alexis</a:Modifier>
 <a:ControlFlow>C</a:ControlFlow>
 <c:Object1>
 <o:UMLObject Ref="o58"/>

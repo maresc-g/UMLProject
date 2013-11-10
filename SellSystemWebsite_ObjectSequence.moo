@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{85D92474-06DD-4562-83B0-3C4D16233522}" Label="" LastModificationDate="1383925174" Name="InternetSellSystem_ObjectSequence" Objects="64" Symbols="97" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{85D92474-06DD-4562-83B0-3C4D16233522}" Label="" LastModificationDate="1384101527" Name="InternetSellSystem_ObjectSequence" Objects="63" Symbols="60" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -3158,12 +3158,12 @@ DISPNAME 0 Arial,8,U</a:FontList>
 </o:Message>
 <o:Message Id="o12">
 <a:ObjectID>64AE5EB4-9BE1-44B7-B961-5F4BE49C7966</a:ObjectID>
-<a:Name>getSpecialDiscountTIcketsRate</a:Name>
-<a:Code>getSpecialDiscountTIcketsRate</a:Code>
+<a:Name>getSpecialDiscountTicketsRate</a:Name>
+<a:Code>getSpecialDiscountTicketsRate</a:Code>
 <a:CreationDate>1383924201</a:CreationDate>
 <a:Creator>ansel</a:Creator>
-<a:ModificationDate>1383924228</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
+<a:ModificationDate>1384101527</a:ModificationDate>
+<a:Modifier>Alexis</a:Modifier>
 <a:ControlFlow>C</a:ControlFlow>
 <c:Object1>
 <o:UMLObject Ref="o92"/>
@@ -3196,8 +3196,8 @@ DISPNAME 0 Arial,8,U</a:FontList>
 <a:Code>Java</a:Code>
 <a:CreationDate>1381996545</a:CreationDate>
 <a:Creator>Cyril</a:Creator>
-<a:ModificationDate>1383921895</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
+<a:ModificationDate>1384101510</a:ModificationDate>
+<a:Modifier>Alexis</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/java5-j2ee14.xol</a:TargetModelURL>
 <a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>
 <a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
@@ -3211,8 +3211,8 @@ DISPNAME 0 Arial,8,U</a:FontList>
 <a:Code>WSDLJava</a:Code>
 <a:CreationDate>1381996546</a:CreationDate>
 <a:Creator>Cyril</a:Creator>
-<a:ModificationDate>1383921895</a:ModificationDate>
-<a:Modifier>ansel</a:Modifier>
+<a:ModificationDate>1384101510</a:ModificationDate>
+<a:Modifier>Alexis</a:Modifier>
 <a:TargetModelURL>file:///%_XEM%/WSDLJ2EE.xem</a:TargetModelURL>
 <a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>
 <a:TargetModelClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetModelClassID>
